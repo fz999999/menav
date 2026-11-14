@@ -1,251 +1,3122 @@
-# 默认页面配置（请勿直接修改）。
-# 建议复制到 config/user/pages/bookmarks.yml 并按需调整。
-# 说明：该页面通常由“书签导入工具”自动生成，手工修改时请保持字段结构一致。
-title: 书签
-subtitle: bookmarks
+# 自动生成的书签配置文件
+# 若要更新，请将新的书签HTML文件放入bookmarks/目录
+# 此文件使用模块化配置格式，位于config/user/pages/目录下
 
-# 指定使用的内置页面类型（由 Astro 组件渲染）
-# 提示：bookmarks 页面标题区会自动显示“内容更新：YYYY-MM-DD（git|mtime）”，无需额外配置
+title: 我的书签
+subtitle: 从浏览器导入的书签收藏
 template: bookmarks
-
 categories:
-  - name: '常用网站'
-    icon: 'fas fa-star'
+  - name: 根目录书签
+    icon: fas fa-star
+    path:
+      - 根目录书签
     sites:
-      - name: 'GitHub'
-        url: 'https://github.com/'
-        icon: 'fab fa-github'
-        description: '代码托管平台'
-      - name: 'Stack Overflow'
-        url: 'https://stackoverflow.com/'
-        icon: 'fab fa-stack-overflow'
-        description: '程序员问答社区'
-      - name: 'MDN Web Docs'
-        url: 'https://developer.mozilla.org/'
-        icon: 'fas fa-book'
-        description: 'Web开发文档'
-
-  - name: '社交媒体'
-    icon: 'fas fa-share-alt'
-    groups:
-      - name: '国际平台'
-        icon: 'fas fa-globe'
-        sites:
-          - name: 'Twitter'
-            url: 'https://twitter.com/'
-            icon: 'fab fa-twitter'
-            description: '微博客社交平台'
-          - name: 'LinkedIn'
-            url: 'https://www.linkedin.com/'
-            icon: 'fab fa-linkedin'
-            description: '职业社交网络'
-          - name: 'Facebook'
-            url: 'https://www.facebook.com/'
-            icon: 'fab fa-facebook'
-            description: '社交网络服务'
-      - name: '国内平台'
-        icon: 'fas fa-map-marker-alt'
-        sites:
-          - name: '微博'
-            url: 'https://weibo.com/'
-            icon: 'fas fa-comment'
-            description: '中文社交媒体平台'
-          - name: '知乎'
-            url: 'https://www.zhihu.com/'
-            icon: 'fas fa-question-circle'
-            description: '中文问答社区'
-          - name: 'B站'
-            url: 'https://www.bilibili.com/'
-            icon: 'fas fa-video'
-            description: '弹幕视频网站'
-
-  - name: '技术资源'
-    icon: 'fas fa-laptop-code'
+      - name: 古圣-B站讲PPT引流创业粉项目粉
+        url: https://docs.qq.com/aio/DS29kUGlISnpJaVNL?p=g5T07oiBwQVS6iHmtSbc55
+        icon: fas fa-link
+        description: ''
+      - name: 主页 - 飞书云文档
+        url: https://my.feishu.cn/drive/me/
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍⁡⁡‌⁣‬‬⁡‬⁡‌‬‌\uFEFF‬‍⁤⁤⁡\uFEFF‍‍​⁡‬​‌‍​‌‌​⁡\uFEFF​\uFEFF⁤​‬‌​\uFEFF\uFEFF‍​‬⁡‍工作内容合集 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/UJvzwW7Mxi3tZ4kxAQOcOZN0nBb
+        icon: fas fa-link
+        description: ''
+      - name: 工作账号26.7.12
+        url: https://www.kdocs.cn/l/ctyMEG55qaT7
+        icon: fas fa-link
+        description: ''
+      - name: "⁣‌​​​‌\uFEFF⁤⁡⁤⁣⁡⁢\uFEFF‍⁢​‬⁤‍​\uFEFF‬‬‬‬‌⁣‬⁣​​⁤⁣​⁣⁤⁢​⁣\uFEFF‍\uFEFF​‌‍‍\uFEFF⁤老工作手机与微信实名人统计表_26.4.7 - 飞书云文档"
+        url: https://my.feishu.cn/sheets/XsfBsFQABhuOhEt01BZcZXz7n6g
+        icon: fas fa-link
+        description: ''
+      - name: 产品分销大全
+        url: https://zerone01.feishu.cn/sheets/WrH3s1ZBnhFxEhtQLqXcyfyDn2e
+        icon: fas fa-link
+        description: ''
+      - name: 2025年业绩台账
+        url: https://www.kdocs.cn/l/360757708969?R=L1MvNXxmaWxlSWQ9MzYwNzU3NzA4OTY5fGNoYW5uZWw9a3NlbnF1aXJ5X2FwcF9vcGVu&channel=ksenquiry_app_open&disableNoviceGuide
+        icon: fas fa-link
+        description: ''
+      - name: 2026年业绩台账2
+        url: https://www.kdocs.cn/l/crKkZOLwikAt?kmonFrom=k_Latest_FileList&startTime=1779271882791&traceparent=00-f41bfbd815b53ac4736c35a29b90983f-f8c9893afe9c3ee3-01-10&R=L1MvNQ==
+        icon: fas fa-link
+        description: ''
+      - name: 大川内部导航
+        url: https://www.dachuan66.com/#/
+        icon: fas fa-link
+        description: ''
+      - name: 查询入口台账
+        url: https://www.kdocs.cn/l/360757708969?R=L1MvNXxmaWxlSWQ9MzYwNzU3NzA4OTY5fGFwcElkPWFwcF9pbnN0YW5jZV9YWUdVU0NRQUJBQUFBfGNoYW5uZWw9a3NlbnF1aXJ5X2FwcF9vcGVufGlzRnVsbD10cnVlfHNoYXJlUGFuZWxBdXRvU2hvdz1mYWxzZQ==&channel=ksenquiry_app_open&disableNoviceGuide
+        icon: fas fa-link
+        description: ''
+      - name: 流年岁月花开的个人空间-流年岁月花开个人主页-哔哩哔哩视频
+        url: https://space.bilibili.com/3707052016798098/relation/follow
+        icon: fas fa-link
+        description: ''
+      - name: WorkBuddy Manager
+        url: http://127.0.0.1:7864/
+        icon: fas fa-link
+        description: ''
+      - name: 快手收益管理后台
+        url: http://ks.dachuan66.com/admin
+        icon: fas fa-link
+        description: ''
+      - name: 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~
+        url: https://member.bilibili.com/platform/upload/video/frame?page_from=creative_home_top_upload
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍\uFEFF‍‬‍‬⁤‬‬\uFEFF⁤​‌\uFEFF​\uFEFF​⁡‍⁡\uFEFF‬\uFEFF⁡​⁤\uFEFF‍⁣​⁡⁤​⁡\uFEFF⁤⁢⁣⁢⁤​⁣⁡​​\uFEFF‬‌⁡“转化大于流量”一套全员销冠的SOP搭建流程（90%私域行业适用）把销冠的价值留在公司 - 飞书云文档"
+        url: https://kkehvdiodf.feishu.cn/docx/IYbtdXEiHovCP7x9w8Hc9jEhnGd
+        icon: fas fa-link
+        description: ''
+      - name: (6 封私信 / 1 条消息) 如何将整个ssd里的软件带系统无缝克隆到另一个ssd？ - 知乎
+        url: https://www.zhihu.com/question/375842930/answer/3281594987
+        icon: fas fa-link
+        description: ''
+      - name: "⁣‍⁤⁣⁢​\uFEFF\uFEFF‌⁡⁤⁣⁤⁤‌‌​‍⁣‬⁡‬\uFEFF​​⁢\uFEFF⁡‌\uFEFF⁡​​​‍⁣‍\uFEFF⁣⁡‬⁡‍⁢‬‍‬​‍《曲龙|黑K技工具箱》（长期更新） - 飞书云文档"
+        url: https://te0l98bhul.feishu.cn/docx/VOlPdxDAioc1uDxD2IycYRrEnHg
+        icon: fas fa-link
+        description: ''
+      - name: 【解决方案】小程序推广企微出现“无法找到该用户，请检查你填写的账号是否正确。” | 微信开放社区
+        url: https://developers.weixin.qq.com/community/develop/article/doc/000e429654c2d0f8f0213048561c13
+        icon: fas fa-link
+        description: ''
+      - name: "‌​⁤⁡⁢⁣⁤‬​\uFEFF⁢⁡⁤⁣⁣‌‬⁤​⁢​⁢⁣‍⁡⁡⁤⁡⁡⁡‬​⁣⁡⁣‬\uFEFF​⁤⁢⁤​⁣⁡⁢⁤‬​​⁡【实操】用Google Opal 3分钟做了个公众号文章生成器 - 飞书云文档"
+        url: https://l0xoaai7d9t.feishu.cn/docx/MORidm9Dwo5RkfxEQeYc8Ps2n9e
+        icon: fas fa-link
+        description: ''
+      - name: 【视抖快】三平台爆款链接汇总
+        url: https://docs.qq.com/sheet/DTllkVlV3d1NzWVpJ?tab=BB08J2
+        icon: fas fa-link
+        description: ''
+      - name: 【转化大于流量】一套全员销冠的SOP搭建流程（90%私域行业适用）把销冠的价值留在公司
+        url: https://scys.com/articleDetail/xq_topic/5125541242454854
+        icon: fas fa-link
+        description: ''
+      - name: 【AI变声器】入梦AI变声器5.0永久免费,250款模型DIY一键安装,保姆级使用教程_哔哩哔哩_bilibili
+        url: https://www.bilibili.com/video/BV1tb421v7DK/?spm_id_from=333.999.0.0&vd_source=046c76682a3b4fbee4e6835b293a6d8b
+        icon: fas fa-link
+        description: ''
+      - name: '@班叔 的个人主页 - 微博'
+        url: https://weibo.com/u/5198011111
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁢‬\uFEFF⁤\uFEFF‌‬⁤‌‬⁣​‍⁡⁢⁢​⁢⁢⁣‬⁢⁢⁢​‍​⁣‍\uFEFF⁢‍‌\uFEFF\uFEFF​‍⁡⁣‬​‌⁢⁤⁣​⁢‍‍1. AI精选工具库 - 飞书云文档"
+        url: https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
+        icon: fas fa-link
+        description: ''
+      - name: 2.在线提取抖因短视频工具(无水印) - 机领网 JLWZ.CN
+        url: https://3g.gljlw.com/diy/ttxs_dy.php?jlwzcn=666
+        icon: fas fa-link
+        description: ''
+      - name: 2925邮箱-无限邮
+        url: https://www.2925.com/#/mailList
+        icon: fas fa-link
+        description: ''
+      - name: 3.ai洗稿
+        url: https://www.aijuli.com/create/produce?id=210
+        icon: fas fa-link
+        description: ''
+      - name: 4.混剪视频-起号云 - 个人信息
+        url: https://video.kissxx.cn/user/spqc
+        icon: fas fa-link
+        description: ''
+      - name: 4.配音神器网页版
+        url: https://www.peiyinshenqi.club/#/tts/index
+        icon: fas fa-link
+        description: ''
+      - name: 阿里云盘TV 下载 | 阿里云盘TV
+        url: https://aliyunpantv.gitlab.io/download.html
+        icon: fas fa-link
+        description: ''
+      - name: 阿虚同学的储物间
+        url: https://axutongxue.com/
+        icon: fas fa-link
+        description: ''
+      - name: 爱锋助手｜应用下载、扫码登录游戏、快捷指令、系统尝鲜、微信提示音
+        url: https://app.afzs.store/
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍\uFEFF\uFEFF\uFEFF⁣\uFEFF‬⁣⁢‍‌⁡⁣‍⁤⁢⁣​⁢‍​‍​\uFEFF‍​‬⁡​⁢\uFEFF\uFEFF⁣⁡​​​‬‬⁢⁣⁣​‍‍​​⁣白哥短剧工具箱 - 飞书云文档"
+        url: https://dav8f2gtgyt.feishu.cn/docx/Q7lcd4ieboXLI3x5o07cLCcKn4b
+        icon: fas fa-link
+        description: ''
+      - name: 百度网盘下载券 - 天青色的网站
+        url: https://www.dogsheep.cn/transform/IO0rbnaAJc
+        icon: fas fa-link
+        description: ''
+      - name: 柏拉图AI_API中转站
+        url: https://one-api.bltcy.top/chat
+        icon: fas fa-link
+        description: ''
+      - name: 北美机场
+        url: https://xn--djr29gc2r0vx.com/#/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: 倍力云推 | Link3
+        url: https://link3.cc/dj26
+        icon: fas fa-link
+        description: ''
+      - name: 本地服务指南（demo下载） - 比特指纹浏览器
+        url: https://doc2.bitbrowser.cn/jiekou/ben-di-fu-wu-zhi-nan.html
+        icon: fas fa-link
+        description: ''
+      - name: 哔哩哔哩(bilibili)视频解析下载 - 保存B站视频到手机、电脑
+        url: https://bilibili.iiilab.com/
+        icon: fas fa-link
+        description: ''
+      - name: 避开官网服务器繁忙！5分钟搞定！Coze调用DeepSeek-R1全流程｜华为云昇腾稳定方案
+        url: https://mp.weixin.qq.com/s/-UxM3xbeJqVr9TgwPB0Q8Q
+        icon: fas fa-link
+        description: ''
+      - name: 变声
+        url: https://github.com/index-tts/index-tts?tab=readme-ov-file
+        icon: fab fa-github
+        description: ''
+      - name: 词频分析
+        url: https://www.weiciyun.com/fenci/?f=index
+        icon: fas fa-link
+        description: ''
+      - name: 从Youtube，Viki，Viu，Vlive等下载字幕！ - DownSub
+        url: https://downsub.com/
+        icon: fas fa-link
+        description: ''
+      - name: 大机场 Official Mirror Site
+        url: https://bigairport-mirror.com/
+        icon: fas fa-link
+        description: ''
+      - name: 大趋智能机(T3/T8)具常规操作-POS机办理公司
+        url: https://www.pos4399.cn/poswenti/4689.html
+        icon: fas fa-link
+        description: ''
+      - name: "‌\uFEFF⁤⁢‬⁢⁡​‬⁡⁣​⁡⁢‍​⁣‌⁡‬​‌​⁣⁢​⁡​⁡​‍⁡⁤⁣⁡‬⁡​⁣⁡‌⁡‌⁡⁤​⁢​\uFEFF⁡点金工具箱 | 黑科技神器 | 乔帮主 - 飞书云文档"
+        url: https://w91h2gmtrn.feishu.cn/docx/RMe4dK8PiorCDuxuE4tcFB7lnqg
+        icon: fas fa-link
+        description: ''
+      - name: 电影解说文案_电影解说词_电影解说稿_抖音短视频解说-集库88
+        url: http://www.jiku88.com/
+        icon: fas fa-link
+        description: ''
+      - name: 钉子电影 - 电影-高清完整版在线观看-百度云网盘资源-迅雷种子下载 钉子电影官网,钉子电影院
+        url: http://www.dingzi55.com/m/index.html
+        icon: fas fa-link
+        description: ''
+      - name: 抖音-记录美好生活
+        url: https://www.douyin.com/user/MS4wLjABAAAArNnNv04eoquE171-p5xf0wGxfB8pbo3X1clAGUgt4lb15ll1VOTaZiR1oF6rX1j8?showTab=post
+        icon: fas fa-link
+        description: ''
+      - name: 抖音创作服务平台
+        url: https://creator.douyin.com/creator-micro/home
+        icon: fas fa-link
+        description: ''
+      - name: 抖音丨2024 年生财十大赛道机会 - 飞书云文档
+        url: https://shengcaiyoushu01.feishu.cn/wiki/MG7Fw7VxBiI5NIkcqc3cLxWnndc
+        icon: fas fa-link
+        description: ''
+      - name: 抖音监控资源库
+        url: https://www.yuque.com/douyinjiankongziyuanku/dy
+        icon: fas fa-link
+        description: ''
+      - name: 抖音企业号商家管理后台
+        url: https://e.douyin.com/site/douyin-mp/home
+        icon: fas fa-link
+        description: ''
+      - name: 抖音热点宝 - 抖音数据观测
+        url: https://douhot.douyin.com/observe?active_tab=monitor_hot_account
+        icon: fas fa-link
+        description: ''
+      - name: 抖音主页
+        url: https://www.douyin.com/
+        icon: fas fa-link
+        description: ''
+      - name: "‌⁣\uFEFF\uFEFF⁤​​⁡‬⁡​​⁤​⁢‬⁣​​\uFEFF‍​⁣⁣⁣⁣⁡⁤⁣⁡​‬‬‌​​⁣‌⁡​‌⁣​⁢‌⁣​​‬‌抖音自动化公转私玩法及防封攻略 - 飞书云文档"
+        url: https://p9rxk6ovll.feishu.cn/docx/QbBKdHvfiofIUNxDlmjceWbfnqh
+        icon: fas fa-link
+        description: ''
+      - name: 豆包语音
+        url: https://console.volcengine.com/speech/service/8?AppID=2558121384
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬​\uFEFF‌​⁢‍​⁤​​​⁢⁤‍⁢\uFEFF‍\uFEFF‬​‍\uFEFF⁡\uFEFF‍‬⁢​​‬‍⁡⁢\uFEFF⁣⁤​​⁡⁤⁣‍⁡​​⁣⁢短剧批量混剪SOP详细版 - 飞书云文档"
+        url: https://ijarxpcwej.feishu.cn/docx/C72BddfFEoLKmIxzS9xctTbInzh
+        icon: fas fa-link
+        description: ''
+      - name: 二手机又又又涨价了！2025年2月价格表
+        url: https://mp.weixin.qq.com/s/cu64zzqHYkaJiQelzpDkuA
+        icon: fas fa-link
+        description: ''
+      - name: 饭太硬 | 导航
+        url: http://xn--sss604efuw.top/
+        icon: fas fa-link
+        description: ''
+      - name: 飞书妙计
+        url: https://q4cyakcd4w.feishu.cn/minutes/me
+        icon: fas fa-link
+        description: ''
+      - name: 服务器 - 轻量云 - 控制台
+        url: https://console.cloud.tencent.com/lighthouse/instance/detail?rid=8&id=lhins-71r6j2kk&tab=firewall&action=DescribeInstanceLogin
+        icon: fas fa-link
+        description: ''
+      - name: 福利吧论坛/万能的福利吧 - Powered by Discuz!
+        url: https://www.wnflb2023.com/
+        icon: fas fa-link
+        description: ''
+      - name: 个体户年报流程参考教程_有啦资源网
+        url: https://www.ylcom.net/2896.html
+        icon: fas fa-link
+        description: ''
+      - name: 邯郸市丛台区三禾模拟运动俱乐部 - 天眼查
+        url: https://www.tianyancha.com/company/5295524705
+        icon: fas fa-link
+        description: ''
+      - name: 航海家复盘 - 飞书云文档
+        url: https://ywfmllgra2k.feishu.cn/wiki/UEzkwKW7Fim2JXkKIlLchaCQnyb
+        icon: fas fa-link
+        description: ''
+      - name: 好玩的免费GM公益服游戏整理汇总 - echeverra
+        url: https://echeverra.cn/h5game
+        icon: fas fa-link
+        description: ''
+      - name: 好用的自动同步软件：FreeFileSync - 知乎
+        url: https://zhuanlan.zhihu.com/p/266883367
+        icon: fas fa-link
+        description: ''
+      - name: 后台管理
+        url: https://ckxqapi.syb2025.cn/#/serviceBoard/serviceValueCondition
+        icon: fas fa-link
+        description: ''
+      - name: 欢拓云
+        url: https://console2.talk-fun.com/#/cloudlive/live/list?page=1
+        icon: fas fa-link
+        description: ''
+      - name: 火山方舟管理控制台
+        url: https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%22PageSize%22%3A10%2C%22PageNumber%22%3A2%2C%22Filter%22%3A%7B%7D%7D&OpenTokenDrawer=false
+        icon: fas fa-link
+        description: ''
+      - name: 获客助手
+        url: https://work.weixin.qq.com/wework_admin/frame#/customer/analysis
+        icon: fas fa-link
+        description: ''
+      - name: 唧唧 - jijidown - 电脑客户端
+        url: http://client.jijidown.com/
+        icon: fas fa-link
+        description: ''
+      - name: 即创 - 一站式智能创意生产与管理平台
+        url: https://aic.oceanengine.com/workbench?bpId=1816494689693721
+        icon: fas fa-link
+        description: ''
+      - name: 即创 - 一站式智能创意生产与管理平台
+        url: https://aic.oceanengine.com/tools/smart_clip/digital_human?bpId=1816494689693721
+        icon: fas fa-link
+        description: ''
+      - name: 极佳性能VMware Workstation虚拟机Windows11系统＆相关精品工具资源 - 吾爱破解 - 52pojie.cn
+        url: https://www.52pojie.cn/forum.php?mod=viewthread&tid=2025508&highlight=%D0%E9%C4%E2%BB%FA
+        icon: fas fa-link
+        description: ''
+      - name: 剪映回放课程 - 飞书云文档
+        url: https://mv0tt1eg9d.feishu.cn/drive/folder/MsDgfXyxal9fGDd2iYpctbsRn0b
+        icon: fas fa-link
+        description: ''
+      - name: 教你用手机／平板，直接播放电脑上的视频（iOS／安卓） - 知乎
+        url: https://zhuanlan.zhihu.com/p/45967353
+        icon: fas fa-link
+        description: ''
+      - name: 金山文档 | WPS云文档
+        url: https://www.kdocs.cn/latest
+        icon: fas fa-link
+        description: ''
+      - name: '近邻词汇检索 @明达明达 #明达明达的口袋#'
+        url: https://tool.mingdawoo.com/
+        icon: fas fa-link
+        description: ''
+      - name: 京东
+        url: https://www.jd.com/
+        icon: fas fa-link
+        description: ''
+      - name: 静态网站托管Cloudflare
+        url: https://dash.cloudflare.com/aa5d4c329bfe649c1f105c470dae9612/pages/view/ribao/a1e5133a-8c4a-4d9a-b9d6-3adbbaa5c507/files
+        icon: fas fa-link
+        description: ''
+      - name: 可乐影视-最全面最优质的影视导航、影视搜索网站
+        url: https://klyingshi.com/
+        icon: fas fa-link
+        description: ''
+      - name: 快捷指令抖音解析 无水印
+        url: https://www.icloud.com/shortcuts/500e1e795f2c4a99a9b5242465f0673a
+        icon: fas fa-link
+        description: ''
+      - name: 快手讲解卡
+        url: https://mp.kuaishou.com/mp/live/live-assistant/
+        icon: fas fa-link
+        description: ''
+      - name: 扩展程序
+        url: chrome://extensions/
+        icon: fas fa-link
+        description: ''
+      - name: 劳务报酬计算器 - 个人所得税
+        url: https://www.gerensuodeshui.cn/index_lwbc.html
+        icon: fas fa-link
+        description: ''
+      - name: 历史微博我爱看围脖
+        url: https://wakwb.com/
+        icon: fas fa-link
+        description: ''
+      - name: 两年19【电信派对卡】每月130G（其中50G开卡三个月后领取）HH
+        url: https://91haoka.cn/webapp/merchant/templet1.html?share_id=375028&id=38235216
+        icon: fas fa-link
+        description: ''
+      - name: 临时邮箱、十分钟邮箱（10分钟)、临时邮、临时Email、快速注册Email、24Mail--查错网
+        url: http://24mail.chacuo.net/
+        icon: fas fa-link
+        description: ''
+      - name: 零距离AI
+        url: https://www.aijuli.com/skill
+        icon: fas fa-link
+        description: ''
+      - name: 零克查词 — 专业的小红书、抖音、B站、小红书敏感词检测工具
+        url: http://ci.lingke.pro/
+        icon: fas fa-link
+        description: ''
+      - name: 流程图
+        url: https://boardmix.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 免费的在线文档翻译器——保留原文档的排版（Word、PDF、Excel、Powerpoint、OpenOffice、文本）
+        url: https://www.onlinedoctranslator.com/zh-CN/translationform
+        icon: fas fa-link
+        description: ''
+      - name: 免费视频下载_哔哩哔哩B站视频下载_抖音无水印视频下载_YouTube油管视频下载-GreenVideo视频下载
+        url: https://greenvideo.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 魔音工坊--达人热推的短视频/有声书AI配音平台
+        url: https://www.moyin.com/overview/article-voice
+        icon: fas fa-link
+        description: ''
+      - name: 默认文件夹 - 通义听悟
+        url: https://tingwu.aliyun.com/folders/0
+        icon: fas fa-link
+        description: ''
+      - name: 评书随身听 - 评书全集在线收听,评书大全免费听,评书下载
+        url: https://www.psmp3.com/
+        icon: fas fa-link
+        description: ''
+      - name: 屏幕录制
+        url: https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/README-sc.md
+        icon: fab fa-github
+        description: ''
+      - name: 企微充值
+        url: https://work.weixin.qq.com/wework_admin/frame#/business/mall/index/recharge?from=1
+        icon: fas fa-link
+        description: ''
+      - name: 企业号员工号审核规则 - 企业号帮助中心
+        url: https://renzheng.douyin.com/support/content/125089?graphId=412&pageId=146duanshipii
+        icon: fas fa-link
+        description: ''
+      - name: "企业蓝v⁡\uFEFF‍‌‌⁤‍‌‬⁡‬⁣⁡⁣‬⁤⁣⁤⁢⁤⁢⁣⁣‬​​‌‌⁡⁤⁤‍⁣⁤​​⁢‌⁡⁢⁤⁤\uFEFF\uFEFF‍\uFEFF​⁣员工账号使用指南（可对外） - 飞书云文档"
+        url: https://bytedance.larkoffice.com/docx/doxcnZG5RKRNJZ3NPV0Kq7YMiOd
+        icon: fas fa-link
+        description: ''
+      - name: 起号云 - 用户首页
+        url: http://video.kissxx.cn/user/index
+        icon: fas fa-link
+        description: ''
+      - name: 千万别错过！这个国产开源项目彻底改变了你的域名资产管理方式，收藏它相当于多一个安全专家！
+        url: https://mp.weixin.qq.com/s/MAGd3p40hxpvCVvyZstqwA?clicktime=1749099578&enterid=1749099578&scene=90&subscene=236&xtrack=1
+        icon: fas fa-link
+        description: ''
+      - name: 情人 ep1 – 搜索结果 – NO视频
+        url: https://www.novipnoad.com/?s=%E6%83%85%E4%BA%BA+ep1
+        icon: fas fa-link
+        description: ''
+      - name: 情人 เมียน้อย EP.1 [FULL] - YouTube
+        url: https://www.youtube.com/watch?v=BUng6EO41OA
+        icon: fab fa-youtube
+        description: ''
+      - name: 求问，我的录音每句之间，间隔时间不同，如何利用AU批量将每句话之间的间隔时间调整一致呢？ - 知乎
+        url: https://www.zhihu.com/question/393934967/answer/2491555928
+        icon: fas fa-link
+        description: ''
+      - name: 日剧下载
+        url: https://jraws.com/
+        icon: fas fa-link
+        description: ''
+      - name: 如何将旧系统系统拷贝到新硬盘上使用 - 哔哩哔哩
+        url: https://www.bilibili.com/read/cv35092276/?jump_opus=1
+        icon: fas fa-link
+        description: ''
+      - name: 如何扩大C盘？6种扩展C盘方法！
+        url: https://www.disktool.cn/jiaocheng/extend-c-drive.html
+        icon: fas fa-link
+        description: ''
+      - name: 如何实现chrome谷歌浏览器多开(独立环境 独立cookie)
+        url: https://www.yuque.com/pengzhiqiang999/xiaokenai/ck1ef6ysr028upqd?singleDoc#
+        icon: fas fa-link
+        description: ''
+      - name: 如何下载高清日剧生肉+外挂字幕?
+        url: https://weibo.com/ttarticle/p/show?id=2309404603148240027963
+        icon: fas fa-link
+        description: ''
+      - name: 软件下载
+        url: https://www.kdocs.cn/l/crn8TrfU9bHv?R=L1MvMw==
+        icon: fas fa-link
+        description: ''
+      - name: 软路由ip云海网络 | 专业基础网络服务供应商
+        url: https://www.yhip.top/welcome
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术-众筹网页版
+        url: https://scys.vip/#/
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术·精华帖索引工具2.0
+        url: https://search01.shengcaiyoushu.com/mine/activity
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术腾讯文档分享
+        url: https://docs.qq.com/s/hp1HSEapTRCHIB7ap6vqEa/folder/bllMWRvbXXxu
+        icon: fas fa-link
+        description: ''
+      - name: "⁣⁣‬⁣‬‍‌⁢⁢​\uFEFF⁤⁤⁣\uFEFF⁤⁣⁤‌⁢​⁢‬‌‬⁢​\uFEFF⁡⁤\uFEFF‬​⁤‬\uFEFF\uFEFF⁤‌⁣\uFEFF​​⁣⁤\uFEFF‬\uFEFF⁢视频号视频下载教程 - 飞书云文档"
+        url: https://ghlf0s3q3l.feishu.cn/docx/X2SBd6ufAo15DMxIYU9cVXdfn6e
+        icon: fas fa-link
+        description: ''
+      - name: 双色球历史号码比较器 _双色球历史对比器_双色球对比器_彩票工具_彩宝贝
+        url: https://www.78500.cn/tool/ssqdb.html
+        icon: fas fa-link
+        description: ''
+      - name: 双色球走势图_双色球走势图带连线图 - 乐彩网图表工具
+        url: https://tools.17500.cn/plot/ssq.html
+        icon: fas fa-link
+        description: ''
+      - name: 台账数据格式转换工具
+        url: https://ribao.pages.dev/
+        icon: fas fa-link
+        description: ''
+      - name: 泰剧 百度网盘 迅雷 阿里 云盘 磁力 BT种子 资源
+        url: https://www.axjbd.com/thread-36
+        icon: fas fa-link
+        description: ''
+      - name: 泰剧资料馆 | 泰剧资料馆，打造最全的泰剧资讯平台，提供好看的泰剧、泰国电影，及好听的泰剧OST信息等等…
+        url: https://www.taijuzlg.com/
+        icon: fas fa-link
+        description: ''
+      - name: 淘宝网
+        url: https://www.taobao.com/
+        icon: fas fa-link
+        description: ''
+      - name: 腾讯视频创作平台 - 开放 共赢 创作好时光
+        url: https://mp.v.qq.com/mcn/income
+        icon: fas fa-link
+        description: ''
+      - name: 天府泰剧-泰剧tv泰剧网-泰剧迷-泰剧2021最新电视剧大全
+        url: http://www.txredcross.org/
+        icon: fas fa-link
+        description: ''
+      - name: 天青色店铺
+        url: https://pay.dogsheep.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 跳转卡片
+        url: https://weikelink.com/
+        icon: fas fa-link
+        description: ''
+      - name: 头条号
+        url: https://mp.toutiao.com/profile_v4/analysis/income-overview
+        icon: fas fa-link
+        description: ''
+      - name: 外链鱼【官网】
+        url: https://www.wlianyu.com/dashboard/dlcallback/list
+        icon: fas fa-link
+        description: ''
+      - name: 外链鱼【官网】
+        url: https://www.wlianyu.com/dashboard/main
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁤⁣⁡\uFEFF‬‬\uFEFF⁣‌​​​​‬⁡‍⁡‬​\uFEFF⁣\uFEFF⁢⁤‌⁡​⁣⁣‬‌​\uFEFF⁣‬‍​​⁢\uFEFF⁣​‌‍\uFEFF‬‍玩转柏拉图次元中转 API教程 - 飞书云文档"
+        url: https://aq3zd4z68bb.feishu.cn/docx/UFU5dwmqJo4MBNxfa5CcQtrXnmc
+        icon: fas fa-link
+        description: ''
+      - name: 万人迷吧-优质云盘资源导航站
+        url: https://www.wanrenmi8.com/cn/index.html#
+        icon: fas fa-link
+        description: ''
+      - name: 王亮_相关搜索结果-天眼查
+        url: https://www.tianyancha.com/search?key=%E7%8E%8B%E4%BA%AE&sessionNo=1717830297.54442960&base=heb&cacheCode=00130400V2020&orgType=5&city=handan
+        icon: fas fa-link
+        description: ''
+      - name: 王子柒AIGC
+        url: https://cyzs.llweixin.cn/workflow
+        icon: fas fa-link
+        description: ''
+      - name: 网易号
+        url: https://mp.163.com/subscribe_v3/index.html#/
+        icon: fas fa-link
+        description: ''
+      - name: 微博
+        url: https://weibo.com/u/2959403123/home?topnav=1&wvr=6&is_new=1
+        icon: fas fa-link
+        description: ''
+      - name: 微博手机号安全-检查工具
+        url: http://8.142.127.252/chaxun/domains/ww.hn/public_html/
+        icon: fas fa-link
+        description: ''
+      - name: 微词云_在线词频统计分析工具_词云图生成器
+        url: https://www.weiciyun.com/fenci/?f=index
+        icon: fas fa-link
+        description: ''
+      - name: 微PE辅助安装_哔哩哔哩_bilibili
+        url: https://www.bilibili.com/video/BV1DJ411D79y?p=2
+        icon: fas fa-link
+        description: ''
+      - name: 违禁词查询
+        url: http://www.ju1.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 为毛我这么爱看探案剧！
+        url: https://www.douban.com/doulist/329709/
+        icon: fas fa-link
+        description: ''
+      - name: 文章相似度检测_两篇文章对比检测_文章内容查重检测
+        url: http://www.zhipaiwu.com/index.php/Xiangsidu/index.html
+        icon: fas fa-link
+        description: ''
+      - name: 我的首页 微博-随时随地发现新鲜事
+        url: https://weibo.com/u/2959403123/home?is_new=1
+        icon: fas fa-link
+        description: ''
+      - name: 我的tk笔记
+        url: https://flowus.cn/b88e0c71-6fb3-431a-a894-ff4483a1751e
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬⁡⁣‬⁣⁡​⁤‌​⁢‍⁡‌⁢‌\uFEFF⁤\uFEFF⁢‌⁡⁤​​​\uFEFF​‬\uFEFF\uFEFF‌‍​‌​‌‍​\uFEFF⁣⁤⁤​⁤⁤\uFEFF\uFEFF\uFEFF我是如何通过小红书打粉日赚千元的全套流程 - 飞书云文档"
+        url: https://si7o8nqh3o3.feishu.cn/wiki/TcjNwT5XnivHcvk4l0pckXknnqg
+        icon: fas fa-link
+        description: ''
+      - name: 吾爱破解
+        url: https://www.52pojie.cn/index.php
+        icon: fas fa-link
+        description: ''
+      - name: 洗稿1
+        url: http://ziz88.com/ai/4/
+        icon: fas fa-link
+        description: ''
+      - name: 洗稿2
+        url: http://www.ziz88.com/ai/3/
+        icon: fas fa-link
+        description: ''
+      - name: 系统激活沧水的KMS服务 - Kms激活|Windows激活|Office激活|Windows下载|Office下载|搭建KMS服务器
+        url: https://kms.cangshui.net/
+        icon: fas fa-link
+        description: ''
+      - name: 下载和配置Docker·Desktop_docker desktop下载-CSDN博客
+        url: https://blog.csdn.net/qq_50549228/article/details/145917672
+        icon: fas fa-link
+        description: ''
+      - name: 夏沫_73877844844_2024-05-25_044227_转码
+        url: https://q4cyakcd4w.feishu.cn/minutes/obcni2q87r6i3hg68u167f45
+        icon: fas fa-link
+        description: ''
+      - name: "⁣⁢\uFEFF‍⁢​‌⁡‬⁤​⁡‍‬\uFEFF‬⁤‬‬‍\uFEFF⁤‬‌‌‍‬‬⁡⁤​\uFEFF​⁡\uFEFF​‌‍‬​⁣‬⁣\uFEFF‍‬‍⁢⁡闲暇时间从0粉新号，一个月跑通抖音短剧 - 飞书云文档"
+        url: https://mvh6uii5p7e.feishu.cn/docx/MlWddFhNeozTwwx8cizcfCAZnnf
+        icon: fas fa-link
+        description: ''
+      - name: 相声随身听 - 相声全集免费听,相声大全免费听,相声下载
+        url: https://www.xsmp3.com/
+        icon: fas fa-link
+        description: ''
+      - name: 销售账单计算
+        url: file:///G:/code/12.9%E9%94%80%E5%94%AE%E8%BD%AC%E5%8C%96/index_new.html
+        icon: fas fa-link
+        description: ''
+      - name: "⁢​​‍⁤⁢‍\uFEFF​‬⁣⁤​⁤‌\uFEFF⁡⁡‌​​⁣‍​‍\uFEFF​\uFEFF‍⁣‬​⁢\uFEFF‬⁢⁢​⁡‬​⁣​​​\uFEFF⁤‌小白入门必看|耗时7个小时整理教程，不是保姆级了，是亲妈级【爆款短视频】 Coze制作治愈系老爷爷视频智能体 - 飞书云文档"
+        url: https://ycnwp5kb84tn.feishu.cn/docx/DMfLdPGnvoyhMqxHKMFc1pfonue
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬⁡⁣‌​​​‌‬​​‍‬⁡‌​⁣‍​‍‍‌⁣​\uFEFF​⁤‍⁣‬\uFEFF​‌‍​​⁢⁢‍⁡‬‬​\uFEFF‬​⁣⁡⁢小红书笔记/商品常见违规解决办法 - 飞书云文档"
+        url: https://hi428l7bh89.feishu.cn/docx/UMCFdTRpVofcENxXBcVcb5PrnEe
+        icon: fas fa-link
+        description: ''
+      - name: "⁢⁡‍⁤⁢​⁡⁡‌‬‍​⁢⁣​⁤⁣⁡‌⁢​⁤⁣⁢⁢​‍⁢​\uFEFF\uFEFF​​\uFEFF​⁣‬⁤\uFEFF⁣\uFEFF⁡‬⁣⁡\uFEFF⁢一分钟玩转易元剪辑 - 飞书云文档"
+        url: https://t55vwyj2j5.feishu.cn/docx/SYX5dcEJ2oCPzSx5GMxcFmxrnke
+        icon: fas fa-link
+        description: ''
+      - name: 影刀学院-课程详情
+        url: https://college.winrobot360.com/course/courseDetail
+        icon: fas fa-link
+        description: ''
+      - name: 影视二创的唱歌解说｜从0到成片实战演示
+        url: https://app8iw3ycel4736.h5.xiaoeknow.com/v2/course/alive/l_65951d30e4b064a87c2cba45?app_id=app8iw3ycel4736&l_program=xe_know_pc&state=d47d76a2c8143bd3148f9d85c5e10107_D3E5up
+        icon: fas fa-link
+        description: ''
+      - name: 用户中心
+        url: https://www.handanzhipin.cn/uc/enterprise/center
+        icon: fas fa-link
+        description: ''
+      - name: 用了 Claude Code 之后，我不再续费 Cursor 了！国内使用 Claude Code 教程【附案例实操】 - 知乎
+        url: https://zhuanlan.zhihu.com/p/1926354002343359213
+        icon: fas fa-link
+        description: ''
+      - name: 油管字幕下载
+        url: https://downsub.com/
+        icon: fas fa-link
+        description: ''
+      - name: 语音转文字
+        url: https://tingwu.aliyun.com/home
+        icon: fas fa-link
+        description: ''
+      - name: "员工号\uFEFF​​⁢\uFEFF​\uFEFF\uFEFF⁢⁤‌⁡⁡\uFEFF⁣\uFEFF‬​⁢‌​‬‬‬​⁤‌\uFEFF⁣⁢⁤‬‬‍‌‌​\uFEFF‬‌\uFEFF⁢​‬⁤⁡\uFEFF⁢\uFEFF1000个达人矩阵怎么搭建的？1个人如何实名3个抖音号？矩阵号手把手教程 - 飞书云文档"
+        url: https://huixinjin.feishu.cn/docx/IGehd0VsWofjLcxuUjWcSh4jnhg
+        icon: fas fa-link
+        description: ''
+      - name: 越南故事
+        url: https://www.youtube.com/watch?v=ggXreWQhGHo
+        icon: fab fa-youtube
+        description: ''
+      - name: 云洋集团 | 云洋电商物流管理系统
+        url: https://yywl.yunyangwl.com/#/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: 在线短视频去水印解析 - xkx
+        url: https://api.xkx.me/dy/
+        icon: fas fa-link
+        description: ''
+      - name: 在线繁体字转换器 - 简繁体字在线转换工具
+        url: http://www.tbflk.com/
+        icon: fas fa-link
+        description: ''
+      - name: 在线工具
+        url: https://tool.lu/js/
+        icon: fas fa-link
+        description: ''
+      - name: 在线文本比较-AI文章 - 媒帮派伪原创
+        url: https://ai.meibp.com/diff.html
+        icon: fas fa-link
+        description: ''
+      - name: '在线下载 Twitter 视频 | Twitter 下载器 #1 - SaveTwitter'
+        url: https://savetwitter.net/zh-cn
+        icon: fas fa-link
+        description: ''
+      - name: 在线字幕免费翻译 - 喃懂妳-喃懂妳
+        url: https://www.nandongni.com/fanyi
+        icon: fas fa-link
+        description: ''
+      - name: 在线字数统计工具-统计字符字节汉字数字标点符号-计算word文章字数
+        url: https://www.eteste.com/
+        icon: fas fa-link
+        description: ''
+      - name: 在线AI转换官网-在线文字转语音,在线语音转文字,在线文字识别,在线图像处理
+        url: http://www.zaixianai.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 长期月租19【电信千麦卡】每月125G通用+30G定向+100分钟通话#
+        url: https://91haoka.cn/webapp/merchant/templet1.html?share_id=375028&id=6273743
+        icon: fas fa-link
+        description: ''
+      - name: 正规三网大流量卡对比表（实时更新中）
+        url: https://www.kdocs.cn/l/ccHVD9L9nVdI
+        icon: fas fa-link
+        description: ''
+      - name: 知识星球 | 深度连接铁杆粉丝，运营高品质社群，知识变现的工具
+        url: https://wx.zsxq.com/dweb2/index/group/1824528822
+        icon: fas fa-link
+        description: ''
+      - name: 知识星球 | 深度连接铁杆粉丝，运营高品质社群，知识变现的工具
+        url: https://wx.zsxq.com/dweb2/index/topic_detail/8855824844542122
+        icon: fas fa-link
+        description: ''
+      - name: 智谱AI开放平台
+        url: https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys
+        icon: fas fa-link
+        description: ''
+      - name: 中创网赚_分享创业资讯_最新网络赚钱项目资源论坛_中赚
+        url: https://www.you85.net/
+        icon: fas fa-link
+        description: ''
+      - name: 中国海事综合服务平台-登录
+        url: https://sso.msa.gov.cn/oam/server/obrareq.cgi?encquery%3DNBS2vVAx87UYWzthL3YMF3MsD1%2F6an0XNwRX8Mt0JD6HEDWnzeiY4B8cYzA0ZdBzGn1FV%2F9lTEMrc0AnXqgc0ubE2Zwnapk9lQoxHYlIHZaW1%2BOBO8iEqrktXyQRidSzCZ1rF8MKuwrgFzYPJ6B9fcloNPxWNe%2FDwCM6V32VkVNm4t1y%2Bi1vYiNdBgPuzMn52LcpNjd89%2B%2FpvG6%2BAPeIgiXmsWgeD7fHxo954025YLy9%2BeIl7OoMUplptGbFP6nsRYlTEvc0LOAxo9%2BW3iEkNw%3D%3D%20agentid%3Dinstance1%20ver%3D1%20crmethod%3D2
+        icon: fas fa-link
+        description: ''
+      - name: 种子离线下载
+        url: https://pikpak.kinh.cc/?Type=List
+        icon: fas fa-link
+        description: ''
+      - name: 种子音乐｜抖音歌曲｜免费在线Mp3听歌音乐播放器｜热门歌曲排行榜｜最新歌曲大全
+        url: https://zz123.com/
+        icon: fas fa-link
+        description: ''
+      - name: 主播加粉
+        url: https://www.kdocs.cn/l/cgL5tKqfGB8a?from=docs&startTime=1744613067982&R=L1MvMg==
+        icon: fas fa-link
+        description: ''
+      - name: 主页 - 飞书云文档
+        url: https://q4cyakcd4w.feishu.cn/drive/home/
+        icon: fas fa-link
+        description: ''
+      - name: 主页视频筛选解析 - 天天解析
+        url: http://www.tiantianjiexi.com/network/post.html
+        icon: fas fa-link
+        description: ''
+      - name: 赚客吧
+        url: http://www.zuanke8.com/zuixin.php
+        icon: fas fa-link
+        description: ''
+      - name: AI生成语音 IndexTTS-Demo · 创空间
+        url: https://modelscope.cn/studios/IndexTeam/IndexTTS-Demo
+        icon: fas fa-link
+        description: ''
+      - name: AI音频克隆&TTS训练推理工具V2.3，Bert-VITS2中文加强版定版，支持方言，修复bug，不用搭建环境，解压即用！_哔哩哔哩_bilibili
+        url: https://www.bilibili.com/video/BV1dy421e7CN/?spm_id_from=333.999.0.0&vd_source=046c76682a3b4fbee4e6835b293a6d8b
+        icon: fas fa-link
+        description: ''
+      - name: awesome-deepseek-integration/README_cn.md at main · deepseek-ai/awesome-deepseek-integration
+        url: https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md
+        icon: fab fa-github
+        description: ''
+      - name: BOSS直聘
+        url: https://www.zhipin.com/web/chat/index
+        icon: fas fa-link
+        description: ''
+      - name: Chrome 网上应用店 - 扩展程序
+        url: https://chrome.google.com/webstore/category/extensions?hl=zh
+        icon: fab fa-google
+        description: ''
+      - name: ClaudeCode卸载大坑：国内api从环境中导入失败（已解决）_claude code 卸载-CSDN博客
+        url: https://blog.csdn.net/2301_76336997/article/details/150509918
+        icon: fas fa-link
+        description: ''
+      - name: Cursor自定义模型API密钥：掌控AI成本与灵活性_w3cschool
+        url: https://www.w3cschool.cn/cursordocs/cursor-custom-model-api-key.html
+        icon: fas fa-link
+        description: ''
+      - name: DeepSeek 开放平台
+        url: https://platform.deepseek.com/api_keys
+        icon: fas fa-link
+        description: ''
+      - name: Docs
+        url: https://bytedance.larkoffice.com/docx/RfD7dco7Nodfujx0lg8cH4QcnRe
+        icon: fas fa-link
+        description: ''
+      - name: GitHub - ddgksf2013/ddgksf2013
+        url: https://github.com/ddgksf2013/ddgksf2013
+        icon: fab fa-github
+        description: ''
+      - name: 'GitHub - zwf234/rules: 各种app的规则文件'
+        url: https://github.com/zwf234/rules
+        icon: fab fa-github
+        description: ''
+      - name: go-cursor-help/README_CN.md at master · yuaotian/go-cursor-help · GitHub
+        url: https://github.com/yuaotian/go-cursor-help/blob/master/README_CN.md
+        icon: fab fa-github
+        description: ''
+      - name: Google Chrome插件下载|谷歌浏览器插件商店|谷歌浏览器下载-Chrome网上应用店
+        url: https://www.gugeapps.net/
+        icon: fas fa-link
+        description: ''
+      - name: HiFiNi - 音乐磁场
+        url: https://hifini.com/
+        icon: fas fa-link
+        description: ''
+      - name: Home | Vben Admin
+        url: https://jeesite.com/front/vben-admin/docs/
+        icon: fas fa-link
+        description: ''
+      - name: i668
+        url: http://112.124.36.69/imt/user
+        icon: fas fa-link
+        description: ''
+      - name: ip纯净度查询
+        url: https://ping0.cc/
+        icon: fas fa-link
+        description: ''
+      - name: iPA商店-最优秀的iPA资源下载网站
+        url: https://ipa.store/dump
+        icon: fas fa-link
+        description: ''
+      - name: Jungle Beat Season Two Compilation [Full Episodes] - YouTube
+        url: https://www.youtube.com/watch?v=dHtrVomcrYc
+        icon: fab fa-youtube
+        description: ''
+      - name: LookAI - 最适合零编程基础普通人的Cursor AI编程教程 | 小白免费学习资源 | LookAI
+        url: https://www.lookai.top/cn
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍⁤⁤⁢⁡⁣⁣\uFEFF\uFEFF​⁤​⁢⁡\uFEFF‌⁢‬⁢⁤⁢⁢⁡‍⁡⁢‬\uFEFF⁤⁤‍\uFEFF⁤​\uFEFF\uFEFF⁤⁡⁤‬⁢‍⁢​‌⁤‌⁡​OpenAI 登陆 保姆级教程 - 飞书云文档"
+        url: https://j4e9o23wo3.feishu.cn/docx/VPmOdWPJHouV4wxqnl3clWp9npb
+        icon: fas fa-link
+        description: ''
+      - name: PDF派 - 20个免费的在线PDF工具包
+        url: https://www.pdfpai.com/
+        icon: fas fa-link
+        description: ''
+      - name: PDF转换成Word转换器在线免费 - 在线word转pdf转换器 - 迅捷PDF转换器免费版
+        url: https://app.xunjiepdf.com/voice2text/
+        icon: fas fa-link
+        description: ''
+      - name: PromptPilot
+        url: https://promptpilot.volcengine.com/home
+        icon: fas fa-link
+        description: ''
+      - name: RARBG Rarbg Index page - RARBG.to - RARBG Proxy
+        url: https://rargb.to/
+        icon: fas fa-link
+        description: ''
+      - name: Sealos Cloud --- Sealos Cloud
+        url: https://bja.sealos.run/
+        icon: fas fa-link
+        description: ''
+      - name: Tampermonkey • 首页
+        url: https://www.tampermonkey.net/
+        icon: fas fa-link
+        description: ''
+      - name: tvos18 iOS屏蔽系统更新.mobileconfig - 蓝奏云
+        url: https://113t.lanzoub.com/iScgX2fry7lc
+        icon: fas fa-link
+        description: ''
+      - name: Vercel 网站免费部署上线
+        url: https://vercel.com/sdfsdfs-projects-41d9fab3/9-6claude-code
+        icon: fas fa-link
+        description: ''
+      - name: VIP项目 - 致富资源网 - Powered by Discuz!
+        url: https://www.zfwz.net/forum-58-1.html
+        icon: fas fa-link
+        description: ''
+      - name: 云服务器管理控制台
+        url: https://ecs.console.aliyun.com/server/i-0jl4112wqdy5zm8aa8m8/detail?regionId=cn-wulanchabu#/
+        icon: fas fa-link
+        description: ''
+      - name: 在线md文件
+        url: https://www.zybuluo.com/mdeditor#2632426
+        icon: fas fa-link
+        description: ''
+      - name: 第一章：腾讯云轻量应用服务器建站流程（前端）_腾讯云 轻量云部署前端-CSDN博客
+        url: https://blog.csdn.net/add_ysd/article/details/127409448
+        icon: fas fa-link
+        description: ''
+      - name: 版本升级说明 | FastGPT
+        url: https://doc.fastgpt.io/docs/upgrading#docker-compose-%E4%BF%AE%E6%94%B9%E9%95%9C%E5%83%8F
+        icon: fas fa-link
+        description: ''
+      - name: coze-studio/README.zh_CN.md at main · coze-dev/coze-studio
+        url: https://github.com/coze-dev/coze-studio/blob/main/README.zh_CN.md
+        icon: fab fa-github
+        description: ''
+      - name: "‍‌‌⁣‌\uFEFF\uFEFF⁢⁡​\uFEFF‌‬​‍‌⁢‌⁣‌⁣​⁣⁣⁢⁡‌​⁤⁤​‍⁢⁡‌‬⁡‍⁡‍\uFEFF⁡‬​​​​⁢‍‍墨鸦AI使用教程入口 - 飞书云文档"
+        url: https://hadgwbthf0m.feishu.cn/wiki/Oj51wKKazie4BUkfaPXcMipfncc
+        icon: fas fa-link
+        description: ''
+      - name: 模型对比
+        url: https://portal.qiniu.com/ai-inference/chat
+        icon: fas fa-link
+        description: ''
+      - name: 个人图库管理系统
+        url: https://service.lingtuo.cn/cloudStorage/#/gongxiang
+        icon: fas fa-link
+        description: ''
+      - name: 【喜人奇妙】- 橘子盘搜
+        url: https://www.nmme.icu/s/1/%E5%96%9C%E4%BA%BA%E5%A5%87%E5%A6%99
+        icon: fas fa-link
+        description: ''
+      - name: 'GitHub - fish2018/YPrompt: 通过对话挖掘用户需求，并自动生成专业的提示词，支持系统/用户提示词优化和版本管理，演示站：https://yprompt.252035.xyz 账号：demo/demo'
+        url: https://github.com/fish2018/YPrompt
+        icon: fab fa-github
+        description: ''
+      - name: GKD编写规则
+        url: https://gkd.li/api/
+        icon: fas fa-link
+        description: ''
+      - name: 在线网页版PS, 免费专业的全功能图片处理工具
+        url: https://www.tugaigai.com/online_ps/
+        icon: fas fa-link
+        description: ''
+      - name: 'hwanz/telegram: telegram电报频道群组机器人BOT推荐'
+        url: https://github.com/hwanz/telegram
+        icon: fab fa-github
+        description: ''
+      - name: 'QuantumNous/new-api: AI模型聚合管理中转分发系统，一个应用管理您的所有AI模型，支持将多种大模型转为统一格式调用，支持OpenAI、Claude、Gemini等格式，可供个人或者企业内部管理与分发渠道使用。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.'
+        url: https://github.com/QuantumNous/new-api?tab=readme-ov-file#-%E9%83%A8%E7%BD%B2
+        icon: fab fa-github
+        description: ''
+      - name: 爱番番
+        url: https://aifanfan.baidu.com/leads/user/73200749/leadsSetting/apiExport
+        icon: fas fa-link
+        description: ''
+      - name: 随手记-多赚会花每一天，记账就要随手记！免费在线记账、海量账本模版、多人多端同步
+        url: https://www.feidee.com/cloud/#/book
+        icon: fas fa-link
+        description: ''
+      - name: 全网最全私域账号避免风控，养号各种教程。
+        url: https://scys.com/articleDetail/xq_topic/8852188458244442
+        icon: fas fa-link
+        description: ''
+      - name: BuyMailShop
+        url: https://www.buymail.shop/
+        icon: fas fa-link
+        description: ''
+      - name: 鲸鱼海外账号批发，gmail邮箱购买，facebook账号购买，tg账号购买，x账号购买
+        url: https://lumaozhanghao.com/
+        icon: fas fa-link
+        description: ''
+      - name: '[官网]效卫安卓投屏 - 安卓手机投屏管理控制系统'
+        url: https://www.xiaowei.xin/android
+        icon: fas fa-link
+        description: ''
+      - name: 在审批中添加审批数据到多维表格
+        url: https://www.feishu.cn/hc/zh-CN/articles/759519701555-%E5%9C%A8%E5%AE%A1%E6%89%B9%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%AE%A1%E6%89%B9%E6%95%B0%E6%8D%AE%E5%88%B0%E5%A4%9A%E7%BB%B4%E8%A1%A8%E6%A0%BC
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁢⁢​⁣​⁤​⁢‍\uFEFF\uFEFF​⁣⁡​‍⁢‍⁤‍​⁤‬⁢\uFEFF⁢⁤⁢‬​⁢\uFEFF‍⁣⁤⁡‌⁡​‌⁣‍‬⁢‬\uFEFF​‌​老板不亏钱手册：一文讲透10人以下流量团队薪酬激励与管理 - 飞书云文档"
+        url: https://ht16ej1tui.feishu.cn/docx/BdkLdsd1NotzxfxoHNGcVLCen3e
+        icon: fas fa-link
+        description: ''
+      - name: 界面设计
+        url: https://stitch.withgoogle.com/
+        icon: fab fa-google
+        description: ''
+      - name: 全部词条
+        url: https://hadgwbthf0m.feishu.cn/baike/admin/entity/allEntities?tab=selfEdit&theme=light&unit_id=7215425816964497436&create_source=platform_create
+        icon: fas fa-link
+        description: ''
+      - name: 魔法团 claude账号购买
+        url: https://tuan.moshushi.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: Win10-64专业版20251126（22H2/2210） | 2345dn
+        url: https://2345dn.com/win10pro.html
+        icon: fas fa-link
+        description: ''
+      - name: OMEN Gaming Laptop 16-am0000TX (BM7T0PA) | HP® 支持
+        url: https://support.hp.com/cn-zh/product/details/omen-16-inch-gaming-laptop-pc-16-am0000/model/2102790706?serialnumber=5CD5172446&sku=BM7T0PA
+        icon: fas fa-link
+        description: ''
+      - name: support.hp.com/cn-zh/drivers/omen-16-inch-gaming-laptop-pc-16-am0000/model/2102790706?serialnumber=5CD5172446&sku=BM7T0PA
+        url: https://support.hp.com/cn-zh/drivers/omen-16-inch-gaming-laptop-pc-16-am0000/model/2102790706?serialnumber=5CD5172446&sku=BM7T0PA
+        icon: fas fa-link
+        description: ''
+      - name: 主页 - 飞书妙记
+        url: https://q4cyakcd4w.feishu.cn/minutes/home
+        icon: fas fa-link
+        description: ''
+      - name: LINUX DO - 新的理想型社区
+        url: https://linux.do/
+        icon: fas fa-link
+        description: ''
+      - name: 免费生图网站GPT Image Playground
+        url: https://gptimg.zrbyhelp.com/
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁢⁣\uFEFF\uFEFF‍⁢⁡‌⁡​⁢‍‍​‌‍\uFEFF‌​⁣‍​⁣⁤‌‍⁡‌​⁣\uFEFF​‬⁣​​⁣⁣​⁣⁣⁤⁡‍‬⁢⁣⁢‍公众号躺更神器！OpenClaw+Claude Skill 实现自动读对标 + 写文 + 配图 + 存入草稿箱 - 飞书云文档"
+        url: https://pa23ntdf1gf.feishu.cn/wiki/Gj9TwqLXVipURikiKpzcLpDkn6e
+        icon: fas fa-link
+        description: ''
+      - name: '去AI味性化工具：人性化 AI 文本 --- WriteHuman AI Humanizer Tool: Humanize AI Text'
+        url: https://writehuman.ai/
+        icon: fas fa-link
+        description: ''
+      - name: 朱雀AI检测助手
+        url: https://matrix.tencent.com/ai-detect/ai_gen_txt
+        icon: fas fa-link
+        description: ''
+      - name: 在线文档相似度计算、在线计算文章相似度、计算网页相似度！--查错网
+        url: http://life.chacuo.net/convertsimilar
+        icon: fas fa-link
+        description: ''
+      - name: 极优性能VMware Workstation虚拟机Windows10系统＆相关精品工具资源 - 吾爱破解 - 52pojie.cn
+        url: https://www.52pojie.cn/thread-1852714-1-1.html
+        icon: fas fa-link
+        description: ''
+      - name: "‌‬​​⁣⁡‬⁡‬​​⁤\uFEFF‌‬‬‍\uFEFF‬⁣⁤​‬⁤‍⁣⁢⁣⁣\uFEFF​​\uFEFF\uFEFF⁡‍‌‌⁡‍‬‌‌‌\uFEFF‬⁣⁣⁤‌26年5月 零一公众号文章引流变现训练营 - 飞书云文档"
+        url: https://my.feishu.cn/docx/MYf3dUDBLoZIQlxEdjNclzSrnTe
+        icon: fas fa-link
+        description: ''
+      - name: WeRss
+        url: http://23.226.133.141:8001/views/home
+        icon: fas fa-link
+        description: ''
+      - name: 2345出海导航 | 指纹浏览器,云手机,代理IP网址集合,工具资源
+        url: https://www.chuhai2345.com/
+        icon: fas fa-link
+        description: ''
+      - name: 免费的生图api
+        url: https://jiuuij.de5.net/pricing
+        icon: fas fa-link
+        description: ''
+      - name: fz999999/微信文章技能 --- fz999999/wechat-article-skill
+        url: https://github.com/fz999999/wechat-article-skill
+        icon: fab fa-github
+        description: ''
+      - name: AI 比价雷达
+        url: https://priceai.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 老林云工作台-豆熊科技
+        url: https://www.laolinyun.cn/#/home/complain
+        icon: fas fa-link
+        description: ''
+      - name: '[开放注册]Ελληνικό Κολλέγιο Νώε(希腊诺亚学院) - 福利羊毛 / 福利羊毛, Lv1 - LINUX DO'
+        url: https://linux.do/t/topic/1174128
+        icon: fas fa-link
+        description: ''
+      - name: '[希腊诺亚学院]站内入学新帖 - 搞七捻三 / 搞七捻三, Lv1 - LINUX DO'
+        url: https://linux.do/t/topic/1493783
+        icon: fas fa-link
+        description: ''
+      - name: 公益站列表贴（6.5 持续更新中，欢迎佬友补充） - 文档共建 / 文档共建, Lv1 - LINUX DO
+        url: https://linux.do/t/topic/2140307
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术 · AI问答
+        url: https://scys.com/ai/20260615170633pHSnwHe
+        icon: fas fa-link
+        description: ''
+      - name: 获客助手列表
+        url: https://hkzs.moreqifu.cn/admin/hkzs/list_link
+        icon: fas fa-link
+        description: ''
+      - name: 优云智算镜像社区_AI模型镜像一键部署
+        url: https://www.compshare.cn/image-community?tag=%E6%95%B0%E5%AD%97%E4%BA%BA
+        icon: fas fa-link
+        description: ''
+      - name: 'codegrazier/cpa-image: CPA Image 是一个本地优先的 OpenAI 兼容图像生成与编辑控制台。'
+        url: https://github.com/codegrazier/cpa-image
+        icon: fab fa-github
+        description: ''
+      - name: 生图网站
+        url: http://23.226.133.141:13000/image
+        icon: fas fa-link
+        description: ''
+      - name: jianying-editor-skill/usage.md at main · luoluoluo22/jianying-editor-skill
+        url: https://github.com/luoluoluo22/jianying-editor-skill/blob/main/usage.md
+        icon: fab fa-github
+        description: ''
+      - name: 'luoluoluo22/jianying-editor-skill: Skill for Agent automating JianYing (CapCut Chinese version) video editing.'
+        url: https://github.com/luoluoluo22/jianying-editor-skill
+        icon: fab fa-github
+        description: ''
+      - name: 图片工具站
+        url: https://us2.84868988.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: ACL4SSR 在线订阅转换
+        url: https://acl4ssr-sub.github.io/
+        icon: fab fa-github
+        description: ''
+      - name: 独享长效静态IP代理套餐 - 91HTTP代理
+        url: https://www.91http.com/product/share-static
+        icon: fas fa-link
+        description: ''
+      - name: AIHub Router
+        url: https://dachuan66.com/b1b1ae90a00e8b3a61bc1df3356be5e729f168c7b92f2a33/
+        icon: fas fa-link
+        description: ''
+      - name: 登录
+        url: https://zxfw.court.gov.cn/zxfw/#/pagesGrxx/pc/login/index
+        icon: fas fa-link
+        description: ''
+      - name: 大博弈第12集在线电影_在线播放下载_大陆剧 - 共青春影院
+        url: https://gqc.ink/bofang/211377-6-12.html
+        icon: fas fa-link
+        description: ''
+      - name: 在线GPU租用部署GPU实例 - 优云智算-
+        url: https://console.compshare.cn/light-gpu/resources/create?ImageId=compshareImage-1t1vuerl80np
+        icon: fas fa-link
+        description: ''
+      - name: CosyVoice3,多音字控制,音色保存,接口API调用,流式接口,音频降噪一键部署 | 优云智算
+        url: https://www.compshare.cn/images/Jfv7qefKDums
+        icon: fas fa-link
+        description: ''
+      - name: Markdown 转 Word — 支持 Mermaid 图表与 LaTeX 数学公式
+        url: https://markdowntoword.app/zh
+        icon: fas fa-link
+        description: ''
+      - name: Win10系统下载_Ghost Win10系统下载_Win10预览版下载_青苹果系统
+        url: http://www.pggho.com/forum-47-1.html
+        icon: fas fa-link
+        description: ''
+      - name: 【AI短视频带货】视频生成免费，单条作品2000+
+        url: https://www.kdocs.cn/l/cc0puLBheYeg
+        icon: fas fa-link
+        description: ''
+      - name: 免费一键视频下载工具_视频无水印解析下载器(b站、抖音)平台去水印下载 - i导航解析器
+        url: https://www.idaohang123.com/
+        icon: fas fa-link
+        description: ''
+      - name: 高性价比VPS推荐 | 便宜靠谱的海外服务器 | VPS ls
+        url: https://vpsls.com/
+        icon: fas fa-link
+        description: ''
+      - name: 年轻人的第一台 VPS 代理服务器 - 资源荟萃 / 资源荟萃, Lv1 - LINUX DO
+        url: https://linux.do/t/topic/333976
+        icon: fas fa-link
+        description: ''
+      - name: dsh插件
+        url: https://zp-home.github.io/dsh-recommend/site/rankings.html
+        icon: fab fa-github
+        description: ''
+      - name: MiniReel 下载站 · 安装包下载
+        url: https://minireel.weppp.cyou:54267/
+        icon: fas fa-link
+        description: ''
+      - name: GitHub加速下载代理 - 快速访问 GitHub 文件
+        url: https://gh-proxy.com/
+        icon: fas fa-link
+        description: ''
+      - name: PanSou 盘搜
+        url: https://ps.252035.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: 'larashero3-dotcom/lieflat-less-ai-tone: 一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study'
+        url: https://github.com/larashero3-dotcom/lieflat-less-ai-tone
+        icon: fab fa-github
+        description: ''
+      - name: AI 网站提示词库 · 21st.dev + MotionSites
+        url: https://prompt.kyla.cloud/library.html
+        icon: fas fa-link
+        description: ''
+      - name: ChatGPT Plus 正价代充价格对比：菲区卡充、美区 iOS 和官方直充 | PriceAI
+        url: https://priceai.cc/products/chatgpt-plus-recharge?back=platform%3DChatGPT
+        icon: fas fa-link
+        description: ''
+      - name: 【🔥已售18000+，可续费，开票快】官网正价直充 GP,T plus官方充值30天直充自己号 秒冲秒到 新手友好 质保30天 可开国内发票报销 有官方账单--自动发货--限时优惠 - AI源头(销量第一,发票可开,GP,T /codex源头,有平台保障）
+        url: https://www.16688.com.cn/goods/G74884541?source=priceai&utm_source=priceai&utm_medium=card_offer&utm_campaign=priceai_card_shop&utm_content=id-6momxo
+        icon: fas fa-link
+        description: ''
+      - name: 美国手机号 - SMS 接码兑换
+        url: https://gpt-zaoci.top/ui/
+        icon: fas fa-link
+        description: ''
+      - name: ProdClub
+        url: https://www.dalangpt.com/
+        icon: fas fa-link
+        description: ''
+      - name: 块受真人粉丝 - 开心跑得快-卡盟24小时自助平台
+        url: https://7.gxhuatai.top/index/index/detail.html?gid=630
+        icon: fas fa-link
+        description: ''
+      - name: 会员中心
+        url: https://7.gxhuatai.top/user
+        icon: fas fa-link
+        description: ''
+      - name: 'rbetree/menav: 一键部署的个人导航站生成器，支持书签导入与自动构建，轻松整理展示您的网络收藏'
+        url: https://github.com/rbetree/menav#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F
+        icon: fab fa-github
+        description: ''
+      - name: 卡网订阅比价 | PriceAI
+        url: https://priceai.cc/channels
+        icon: fas fa-link
+        description: ''
+  - name: AI api
+    icon: fas fa-folder
+    path:
+      - AI api
     subcategories:
-      - name: '前端开发'
-        icon: 'fas fa-code'
-        groups:
-          - name: '框架库'
-            icon: 'fas fa-cube'
-            sites:
-              - name: 'React'
-                url: 'https://reactjs.org/'
-                icon: 'fab fa-react'
-                description: 'React官方文档'
-              - name: 'Vue.js'
-                url: 'https://vuejs.org/'
-                icon: 'fab fa-vuejs'
-                description: 'Vue.js官方文档'
-              - name: 'Angular'
-                url: 'https://angular.io/'
-                icon: 'fab fa-angular'
-                description: 'Angular官方文档'
-          - name: '状态管理'
-            icon: 'fas fa-database'
-            sites:
-              - name: 'Redux'
-                url: 'https://redux.js.org/'
-                icon: 'fas fa-database'
-                description: 'Redux状态管理'
-              - name: 'Vuex'
-                url: 'https://vuex.vuejs.org/'
-                icon: 'fas fa-database'
-                description: 'Vue状态管理'
-              - name: 'MobX'
-                url: 'https://mobx.js.org/'
-                icon: 'fas fa-react'
-                description: '响应式状态管理'
-          - name: '构建工具'
-            icon: 'fas fa-tools'
-            sites:
-              - name: 'Webpack'
-                url: 'https://webpack.js.org/'
-                icon: 'fas fa-cube'
-                description: '模块打包工具'
-              - name: 'Vite'
-                url: 'https://vitejs.dev/'
-                icon: 'fas fa-bolt'
-                description: '下一代前端构建工具'
-              - name: 'Rollup'
-                url: 'https://rollupjs.org/'
-                icon: 'fas fa-compress'
-                description: '模块打包器'
-      - name: '后端开发'
-        icon: 'fas fa-server'
-        groups:
-          - name: 'Node.js生态'
-            icon: 'fab fa-node-js'
-            sites:
-              - name: 'Express'
-                url: 'https://expressjs.com/'
-                icon: 'fas fa-server'
-                description: 'Node.js Web框架'
-              - name: 'Koa'
-                url: 'https://koajs.com/'
-                icon: 'fas fa-leaf'
-                forceIconMode: manual
-                description: '下一代Node.js框架'
-              - name: 'NestJS'
-                url: 'https://nestjs.com/'
-                icon: 'fas fa-home'
-                description: 'Node.js企业级框架'
-          - name: 'Python框架'
-            icon: 'fab fa-python'
-            sites:
-              - name: 'Django'
-                url: 'https://www.djangoproject.com/'
-                icon: 'fab fa-python'
-                description: 'Python Web框架'
-              - name: 'Flask'
-                url: 'https://flask.palletsprojects.com/'
-                icon: 'fas fa-flask'
-                description: 'Python微框架'
-              - name: 'FastAPI'
-                url: 'https://fastapi.tiangolo.com/'
-                icon: 'fas fa-bolt'
-                description: '现代Python Web框架'
-
-  - name: '设计资源'
-    icon: 'fas fa-palette'
+      - name: api接口
+        icon: fas fa-folder
+        path:
+          - AI api
+          - api接口
+        sites:
+          - name: 极致了数据 - 微信公众号API接口文章素材小程序实时数据查询采集分析工具
+            url: https://www.dajiala.com/main/
+            icon: fas fa-link
+            description: ''
+          - name: 聚道云AI聚合平台
+            url: https://cn8n.com/#/appService
+            icon: fas fa-link
+            description: ''
+          - name: 'Apify：全栈网页爬取和数据提取平台 --- Apify: Full-stack web scraping and data extraction platform'
+            url: https://apify.com/
+            icon: fas fa-link
+            description: ''
+          - name: 产品文档 - 内容管理系统
+            url: https://note.limyai.com/doc
+            icon: fas fa-link
+            description: ''
+          - name: 最好的AI导航站和AI工具列表 - Toolify
+            url: https://www.toolify.ai/zh/
+            icon: fas fa-link
+            description: ''
+          - name: 首页 | Just One API
+            url: https://justoneapi.com/zh
+            icon: fas fa-link
+            description: ''
+          - name: TikHub - User Dashboard
+            url: https://user.tikhub.io/dashboard/api-marketplace
+            icon: fas fa-link
+            description: ''
+      - name: API中转
+        icon: fas fa-folder
+        path:
+          - AI api
+          - API中转
+        sites:
+          - name: 公益站 - 签到 - Any Router
+            url: https://anyrouter.top/console/token
+            icon: fas fa-link
+            description: ''
+          - name: 云雾api
+            url: https://yunwu.ai/pricing
+            icon: fas fa-link
+            description: ''
+          - name: 柏拉图AI_API中转站
+            url: https://one-api.bltcy.top/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: Your API
+            url: https://yourapi.cn/console
+            icon: fas fa-link
+            description: ''
+          - name: DuckCoding
+            url: https://duckcoding.com/console/token
+            icon: fas fa-link
+            description: ''
+          - name: LightAI API --- LightAI API
+            url: https://api.lightai.io/token
+            icon: fas fa-link
+            description: ''
+          - name: OpenRouter --- OpenRouter
+            url: https://openrouter.ai/
+            icon: fas fa-link
+            description: ''
+          - name: 问问Code
+            url: https://code.wenwen-ai.com/console
+            icon: fas fa-link
+            description: ''
+          - name: 书虫APICore
+            url: https://api.apicore.ai/console
+            icon: fas fa-link
+            description: ''
+          - name: 破局-问问API
+            url: https://breakout.wenwen-ai.com/console
+            icon: fas fa-link
+            description: ''
+          - name: 仪表板 - NEW CLI
+            url: https://foxcode.rjj.cc/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: Ai Go Code
+            url: https://www.aigocode.com/dashboard/stats
+            icon: fas fa-link
+            description: ''
+          - name: CUN.AI
+            url: https://www.cun.ai/dashboard/overview
+            icon: fas fa-link
+            description: ''
+          - name: CUN.AI
+            url: https://www.cun.ai/subscription-plans
+            icon: fas fa-link
+            description: ''
+          - name: 大模型 API 价格对比与模型列表 | SoleAPI
+            url: https://soleapi.com/zh/models
+            icon: fas fa-link
+            description: ''
+          - name: HUB
+            url: https://hub.linux.do/marketplace
+            icon: fas fa-link
+            description: ''
+          - name: 我的分组 - S2API
+            url: https://s2api.top/my-groups
+            icon: fas fa-link
+            description: ''
+      - name: claude code 包月
+        icon: fas fa-folder
+        path:
+          - AI api
+          - claude code 包月
+        sites:
+          - name: Claude Code官方共享平台 - 中国用户专属AI编程助手
+            url: https://www.aicodemirror.com/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: sssaicode - Claude Code 中转平台
+            url: https://sssaicode.com/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: Ctok | Claude Code拼车社群 - 专业教程与拼车服务
+            url: https://ctok.ai/
+            icon: fas fa-link
+            description: ''
+          - name: Claude Code Dashboard
+            url: https://aicodewith.com/
+            icon: fas fa-link
+            description: ''
+          - name: 书虫 Claude Code
+            url: https://gaccode.com/credits
+            icon: fas fa-link
+            description: ''
+      - name: 中转站集合站
+        icon: fas fa-folder
+        path:
+          - AI api
+          - 中转站集合站
+        sites:
+          - name: 最全AI的API中转站点集合站
+            url: https://api.daheiai.com/
+            icon: fas fa-link
+            description: ''
+          - name: RelayPulse - 实时监测API中转服务可用性矩阵
+            url: https://relaypulse.top/
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: 爬虫IP代理
+        url: https://www.ipwo.net/user/register?ref=gittejinghong&code=9MZ11IZP4
+        icon: fas fa-link
+        description: ''
+      - name: 缤纷云控制台 | Bitiful
+        url: https://console.bitiful.com/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: Aionsale
+        url: https://www.aionsale.vip/console
+        icon: fas fa-link
+        description: ''
+      - name: PackyAPI【sk-eDwOftTyFr1JMUqcPTFqKYEfShAAUAk893zlHTtmpUkg6n3Z】
+        url: https://www.packyapi.com/console
+        icon: fas fa-link
+        description: ''
+      - name: 艾莎。 --- AIsa
+        url: https://marketplace.aisa.one/openclaw
+        icon: fas fa-link
+        description: ''
+      - name: 墨信AI
+        url: https://www.moxin.studio/pricing
+        icon: fas fa-link
+        description: ''
+      - name: IKunCode
+        url: https://api.ikuncode.cc/console
+        icon: fas fa-link
+        description: ''
+      - name: 仪表盘 - OneToken
+        url: https://onetoken.sh/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: 君の星辰·AI
+        url: https://ai.centos.hk/console
+        icon: fas fa-link
+        description: ''
+      - name: rawchat 账号拼车
+        url: https://sharedchat.top/pastel/#/promotion-incentive
+        icon: fas fa-link
+        description: ''
+      - name: Vibe Code 控制台
+        url: https://sharedchat.top/pastel/#/vibe-code/dashboard?activeMenu=tutorial
+        icon: fas fa-link
+        description: ''
+      - name: sharedchat
+        url: https://newapi.sharedchat.top/console
+        icon: fas fa-link
+        description: ''
+      - name: 生图New API
+        url: https://img.coderelay.cn/pricing
+        icon: fas fa-link
+        description: ''
+      - name: 快跑API
+        url: https://kuaipao.ai/pricing
+        icon: fas fa-link
+        description: ''
+      - name: Krill AI
+        url: https://www.krill-ai.com/app
+        icon: fas fa-link
+        description: ''
+      - name: API 集合站
+        url: https://aihub.top/keys
+        icon: fas fa-link
+        description: ''
+      - name: 概览 - 粥
+        url: https://congee.pro/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: CodeGo 月卡
+        url: https://shu26.cfd/group-buy
+        icon: fas fa-link
+        description: ''
+      - name: 4Router
+        url: https://4router.net/console/personal
+        icon: fas fa-link
+        description: ''
+      - name: Top-API｜企业级 AI 模型接入服务
+        url: https://api-top.com/usage-logs/common
+        icon: fas fa-link
+        description: ''
+      - name: 万川智能
+        url: https://chuanapi.com/dashboard/overview
+        icon: fas fa-link
+        description: ''
+  - name: 零一学院课程
+    icon: fas fa-folder
+    path:
+      - 零一学院课程
     subcategories:
-      - name: 'UI设计工具'
-        icon: 'fas fa-paint-brush'
-        groups:
-          - name: '原型设计'
-            icon: 'fas fa-drafting-compass'
-            sites:
-              - name: 'Figma'
-                url: 'https://www.figma.com/'
-                icon: 'fab fa-figma'
-                description: '协作式UI设计工具'
-              - name: 'Sketch'
-                url: 'https://www.sketch.com/'
-                icon: 'fab fa-sketch'
-                description: 'Mac平台UI设计工具'
-              - name: 'Adobe XD'
-                url: 'https://www.adobe.com/products/xd.html'
-                icon: 'fab fa-adobe'
-                description: 'Adobe UI设计工具'
-          - name: '设计系统'
-            icon: 'fas fa-th-large'
-            sites:
-              - name: 'Ant Design'
-                url: 'https://ant.design/'
-                icon: 'fas fa-th'
-                forceIconMode: manual
-                description: '企业级UI设计语言'
-              - name: 'Material Design'
-                url: 'https://material.io/design'
-                icon: 'fas fa-cube'
-                description: 'Google设计系统'
-              - name: 'Bootstrap'
-                url: 'https://getbootstrap.com/'
-                icon: 'fab fa-bootstrap'
-                description: '响应式CSS框架'
-      - name: '视觉资源'
-        icon: 'fas fa-image'
-        groups:
-          - name: '图标库'
-            icon: 'fas fa-icons'
-            sites:
-              - name: 'Font Awesome'
-                url: 'https://fontawesome.com/'
-                icon: 'fab fa-font-awesome'
-                description: '图标库'
-              - name: 'Iconfont'
-                url: 'https://www.iconfont.cn/'
-                icon: 'fas fa-icons'
-                description: '阿里巴巴图标库'
-              - name: 'Feather Icons'
-                url: 'https://feathericons.com/'
-                icon: 'fas fa-feather'
-                description: '简洁的图标库'
-          - name: '配色方案'
-            icon: 'fas fa-palette'
-            sites:
-              - name: 'Coolors'
-                url: 'https://coolors.co/'
-                icon: 'fas fa-palette'
-                description: '在线配色方案生成器'
-              - name: 'Adobe Color'
-                url: 'https://color.adobe.com/'
-                icon: 'fab fa-adobe'
-                description: 'Adobe配色工具'
-              - name: 'Paletton'
-                url: 'https://paletton.com/'
-                icon: 'fas fa-palette'
-                description: '配色方案设计工具'
-
-  - name: '开发工具'
-    icon: 'fas fa-tools'
-    groups:
-      - name: '代码编辑器'
-        icon: 'fas fa-code'
+      - name: 私域社群运营
+        icon: fas fa-folder
+        path:
+          - 零一学院课程
+          - 私域社群运营
         sites:
-          - name: 'Visual Studio Code'
-            url: 'https://code.visualstudio.com/'
-            icon: 'fas fa-code'
-            description: '微软代码编辑器'
-          - name: 'Sublime Text'
-            url: 'https://www.sublimetext.com/'
-            icon: 'fas fa-file-code'
-            description: '轻量级代码编辑器'
-          - name: 'WebStorm'
-            url: 'https://www.jetbrains.com/webstorm/'
-            icon: 'fab fa-js'
-            description: 'JetBrains前端IDE'
-      - name: '版本控制'
-        icon: 'fas fa-code-branch'
+          - name: 三言 · 私域社群运营指南
+            url: https://my.feishu.cn/wiki/HcKnwTovIi9ThekJ0cocOWhkntb
+            icon: fas fa-link
+            description: ''
+          - name: 录制文件
+            url: https://meeting.tencent.com/cw/2ZbjEDa754
+            icon: fas fa-link
+            description: ''
+          - name: 录制文件
+            url: https://meeting.tencent.com/cw/K0GWX0Pebd
+            icon: fas fa-link
+            description: ''
+          - name: 录制文件
+            url: https://meeting.tencent.com/cw/NQgO0OLy33
+            icon: fas fa-link
+            description: ''
+          - name: "‌\uFEFF⁢⁡​​\uFEFF‍‍‬‬‍​⁡​​​‌‬⁡‌⁤​​​⁤‍⁡‬⁣‌⁣⁤⁡‍⁡⁡\uFEFF‬​​\uFEFF‌​⁤⁣⁤‍‌⁣4天闭门课专属福利资料 - 飞书云文档"
+            url: https://my.feishu.cn/wiki/M0JowaX4eiY88dkub2vc0O4Qn1f
+            icon: fas fa-link
+            description: ''
+          - name: "‍‌⁢⁡‌‬​​​​⁡‌‌‌⁡⁣⁡⁡⁡​​‌​⁡⁡\uFEFF⁢​\uFEFF⁢⁡⁢​‌⁡‍‬‌​\uFEFF\uFEFF⁡‌⁤⁢⁡⁣⁤‍\uFEFF社群&直播转化庄家局操作流程（持续更新中） - 飞书云文档"
+            url: https://zerone01.feishu.cn/wiki/BSLRwtCjgiRmvskgS95cmAEunGc
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: B站引流变现训练营交付手册 - 飞书云文档
+        url: https://my.feishu.cn/docx/XQYOd7svWos2Uux4OkYc8tpQniA
+        icon: fas fa-link
+        description: ''
+      - name: "‌​‬⁤\uFEFF⁡⁣⁢⁡‍​​⁡‍\uFEFF‍​‌​​​‬‬‍‬⁣‌​​‍​‍\uFEFF‍⁤‬\uFEFF⁣‬​⁤⁤​⁡⁢⁤​⁢​⁢01 公众号引流变现训练营交付手册 - 飞书云文档"
+        url: https://my.feishu.cn/docx/RH4Qd5zJCoOPEVxLwSDcwfNmnNb
+        icon: fas fa-link
+        description: ''
+      - name: "‌⁣⁣\uFEFF⁢⁤​⁡\uFEFF‬⁣‌​‌​​⁤‌⁤⁡‌⁡⁢⁡⁣‌​⁡‬⁣‌\uFEFF⁣‍‬⁢⁡‌​⁣⁢‍‌‍⁤⁤‍⁤⁣​01「零一学苑 · IP合伙人计划」交付手册（持续更新） - 飞书云文档"
+        url: https://zerone01.feishu.cn/docx/LUifd9ALzoSvSLxHlikcz7PXnse
+        icon: fas fa-link
+        description: ''
+      - name: 荔枝微课
+        url: https://m.shifangwk.cn/channel2/1639686?st=sharelink&inviter_id=49644341&d_ack=1107
+        icon: fas fa-link
+        description: ''
+      - name: 打粉资料合集
+        url: https://my.feishu.cn/base/ENLFboV5pa4eaOs3wthcZGAEnAh
+        icon: fas fa-link
+        description: ''
+  - name: 企微后台设置
+    icon: fas fa-folder
+    path:
+      - 企微后台设置
+    sites:
+      - name: 企业微信
+        url: https://work.weixin.qq.com/wework_admin/frame#/
+        icon: fas fa-link
+        description: ''
+      - name: 企业微信聊天敏感词设置
+        url: https://work.weixin.qq.com/wework_admin/frame#/ban/index
+        icon: fas fa-link
+        description: ''
+      - name: 接单二维码
+        url: https://work.weixin.qq.com/wework_admin/frame#/csPlugin
+        icon: fas fa-link
+        description: ''
+      - name: 企业微信快捷回复
+        url: https://work.weixin.qq.com/wework_admin/frame#/csFastReply/index
+        icon: fas fa-link
+        description: ''
+      - name: 离职继承
+        url: https://work.weixin.qq.com/wework_admin/frame#/customer/pending
+        icon: fas fa-link
+        description: ''
+      - name: 客户名字搜索
+        url: https://work.weixin.qq.com/wework_admin/frame#/business/mall/customerService/customerList
+        icon: fas fa-link
+        description: ''
+      - name: 客户标签
+        url: https://work.weixin.qq.com/wework_admin/frame#/customer/tagconfig
+        icon: fas fa-link
+        description: ''
+      - name: 打卡规则设置
+        url: https://work.weixin.qq.com/wework_admin/frame#/attendance/chart
+        icon: fas fa-link
+        description: ''
+  - name: 每日 - 记账
+    icon: fas fa-folder
+    path:
+      - 每日 - 记账
+    sites:
+      - name: 2.记账生成
+        url: https://bill.dachuan66.com/
+        icon: fas fa-link
+        description: ''
+      - name: 1.查账 - 收款码分组
+        url: https://www.kdocs.cn/office/d/522804752366?share_id=G0h9TpVbPwZbXS&R=L1MvNQ==
+        icon: fas fa-link
+        description: ''
+      - name: 3.随手记
+        url: https://www.feidee.com/cloud/#/book/setting/account-import/upload
+        icon: fas fa-link
+        description: ''
+  - name: 每日 -企微人数添加
+    icon: fas fa-folder
+    path:
+      - 每日 -企微人数添加
+    sites:
+      - name: wps - 每人每天进粉
+        url: https://www.kdocs.cn/l/crKkZOLwikAt?kmonFrom=k_Latest_FileList&startTime=1779271882791&traceparent=00-f41bfbd815b53ac4736c35a29b90983f-f8c9893afe9c3ee3-01-10&R=L1MvNjY=
+        icon: fas fa-link
+        description: ''
+      - name: 企微 - 每日进粉数量
+        url: https://doc.weixin.qq.com/smartsheet/s3_Af8AugZZANQCNwr3YSwB7QXWhnlSQ?scode=AC0AnAdGACIN1a69ZNAf8AugZZANQ&tab=db_EylBOz&viewId=fv1
+        icon: fas fa-link
+        description: ''
+      - name: 企业微信 联系客户统计
+        url: https://work.weixin.qq.com/wework_admin/frame#/customer/data/detail
+        icon: fas fa-link
+        description: ''
+  - name: 每日 -公益站
+    icon: fas fa-folder
+    path:
+      - 每日 -公益站
+    subcategories:
+      - name: 生图
+        icon: fas fa-folder
+        path:
+          - 每日 -公益站
+          - 生图
         sites:
-          - name: 'GitHub'
-            url: 'https://github.com/'
-            icon: 'fab fa-github'
-            description: '代码托管平台'
-          - name: 'GitLab'
-            url: 'https://gitlab.com/'
-            icon: 'fab fa-gitlab'
-            description: 'Git代码管理平台'
-          - name: 'Bitbucket'
-            url: 'https://bitbucket.org/'
-            icon: 'fab fa-bitbucket'
-            description: 'Atlassian代码托管'
+          - name: 生图公益站
+            url: https://ai.52ccl.cn/profile
+            icon: fas fa-link
+            description: ''
+          - name: 没有apilukaleng
+            url: http://art.luka77.cc/image
+            icon: fas fa-link
+            description: ''
+          - name: 福利站 - 每日签到
+            url: https://checkin.new-api.abrdns.com/
+            icon: fas fa-link
+            description: ''
+          - name: 签到智画创 · WisArtCreate
+            url: https://wisart.kuaileshifu.com/#/checkin
+            icon: fas fa-link
+            description: ''
+          - name: 墨信studio
+            url: https://www.moxin.studio/profile
+            icon: fas fa-link
+            description: ''
+      - name: 大模型
+        icon: fas fa-folder
+        path:
+          - 每日 -公益站
+          - 大模型
+        sites:
+          - name: 领取 - codex - 60刀/天 - sharedchat
+            url: https://new.sharedchat.cc/list/#/vibe-code/dashboard?activeMenu=dashboard&service=codex
+            icon: fas fa-link
+            description: ''
+          - name: 签到-codex+Claude - 君の的公益
+            url: https://muyuan.do/console/personal
+            icon: fas fa-link
+            description: ''
+          - name: 签到 -Claude - Agent Router
+            url: https://agentrouter.org/console
+            icon: fas fa-link
+            description: ''
+          - name: 签到 -Any Router
+            url: https://anyrouter.top/console
+            icon: fas fa-link
+            description: ''
+          - name: Agnes Video V2.0 - Agnes-Ai Docs
+            url: https://agnes-ai.com/zh-Hans/docs/agnes-video-v20
+            icon: fas fa-link
+            description: ''
+          - name: V - API
+            url: https://v-api.de5.net/profile
+            icon: fas fa-link
+            description: ''
+          - name: 仪表盘 - 「林夕」公益站
+            url: https://k40.shengqainbang.cn/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: 魔方公益站
+            url: https://www.mofas.one/console/personal
+            icon: fas fa-link
+            description: ''
+          - name: 烁
+            url: https://elysiver.h-e.top/profile
+            icon: fas fa-link
+            description: ''
+          - name: 黑与白公益站
+            url: https://ai.hybgzs.com/panel/dashboard
+            icon: fas fa-link
+            description: ''
+          - name: 黑与白福利站NEXT
+            url: https://cdk.hybgzs.com/dashboard
+            icon: fas fa-link
+            description: ''
+      - name: 流量站
+        icon: fas fa-folder
+        path:
+          - 每日 -公益站
+          - 流量站
+        sites:
+          - name: 每月领取DOGEGG流量站
+            url: https://traffic.dogegg.online/
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: '======公益站导航======'
+        url: https://ldoh.105117.xyz/
+        icon: fas fa-link
+        description: ''
+  - name: 飞书文档备份
+    icon: fas fa-folder
+    path:
+      - 飞书文档备份
+    sites:
+      - name: "‌​⁣‍​⁤‬​‬⁡⁡‌\uFEFF‌⁣\uFEFF​‬‌\uFEFF‍⁤⁣⁣‌⁣\uFEFF⁣⁤‌\uFEFF⁣‍⁤⁢⁤​\uFEFF​\uFEFF‌\uFEFF⁤⁡⁢‍⁣​\uFEFF‌偷偷用这招！飞书多维表格+Coze工作流，抖音视频文案提取效率暴涨300% - 飞书云文档"
+        url: https://w63nbfedzw.feishu.cn/docx/V7iEdFG2ro68moxeHeHcqWAPnSc
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁡​​⁣⁤‌‌‌\uFEFF⁤\uFEFF​⁡‍​\uFEFF⁤‌‍​‍‍⁣⁣‍⁢\uFEFF‌⁤‌‬⁢‍\uFEFF‍‬​\uFEFF⁡⁡\uFEFF‍​⁣‬\uFEFF‍​「生财圈友专享」一键全网聚合收藏教程 - 飞书云文档"
+        url: https://lv13e2iljbk.feishu.cn/docx/R4IudxzGCo1GRGxBGV6cBQOfnkb
+        icon: fas fa-link
+        description: ''
+      - name: 帮助中心智能助手
+        url: https://www.feishu.cn/hc/zh-CN/chat
+        icon: fas fa-link
+        description: ''
+      - name: 飞书培训资料
+        url: https://bytedance.larkoffice.com/wiki/P9MswIeDeiWaa5kX131c73kDnid
+        icon: fas fa-link
+        description: ''
+  - name: claude code 教程
+    icon: fas fa-folder
+    path:
+      - claude code 教程
+    sites:
+      - name: "‍‌⁡‬⁡‬⁡‍⁢‌\uFEFF‌‍⁣⁣‬\uFEFF⁡⁣⁡⁡⁡‍​​‍‍⁣⁣⁡‍⁢⁢‍⁣⁤‬\uFEFF‍⁤​​‬⁡‍⁢⁡\uFEFF‍我是如何用Claude Code的sub agents搭建开发流水线的：一套从PRD到项目落地的完整SOP - 飞书云文档"
+        url: https://tow7krvdia.feishu.cn/wiki/F3B5wDQYjiLXQ2kDKxwc4bJHngg
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍⁡⁡‬‍⁡‬⁢​​‌⁣‌⁢​\uFEFF⁣​​⁢\uFEFF⁡⁡⁣⁢​\uFEFF​⁡​‌‬​​‌⁢⁡‍⁢⁢\uFEFF‌‌⁡⁢‬​​Claude Code 使用手册 - 飞书云文档"
+        url: https://t16jzwqrzjx.feishu.cn/wiki/E4Rbw3vpBikNLbknNKOc7GtYnqd
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁢\uFEFF​⁤​⁤​⁡‍‍⁢‌⁢‌⁤\uFEFF\uFEFF‍​‌‍\uFEFF‍\uFEFF‍⁣⁡‬⁢​‌⁣\uFEFF‬​‍⁢​‍‍​⁢⁣⁣​⁡​‬​Cursor教程丨我用AI上线一个插件后，整理了一份小白也能用的AI编程指南 - 飞书云文档"
+        url: https://t16jzwqrzjx.feishu.cn/wiki/UZPawHyzTi3yRxkfBbwc9zyvncf
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍⁡​​​‍\uFEFF⁤⁡‌‌⁣\uFEFF​⁣‬\uFEFF‬⁡⁤‬‍​⁢‌⁢⁡‍​⁡\uFEFF​‌‬​‍‌⁡‌​⁡⁤‌​⁢⁤‌⁣30 个进阶技巧彻底榨干Claude Code价值：工作流、上下文交互、拓展与自动化、架构与重构、性能与协作... - 飞书云文档"
+        url: https://ry6uq5vtyu.feishu.cn/docx/Wor4dzTTzoRtGFxp919cUjP6ndh
+        icon: fas fa-link
+        description: ''
+      - name: "‍​​⁡‍‌⁣‍⁢\uFEFF​​⁤⁡⁡‬​⁣‌\uFEFF⁢‌‌⁣​​\uFEFF​‌⁡‌\uFEFF⁤‌⁡‍⁤⁢​⁢⁤\uFEFF​​⁣‬‬​​​AI接管浏览器：Claude Code+Chrome MCP自动化完全指南 - 飞书云文档"
+        url: https://i3k3w6il9z.feishu.cn/docx/AShEdF911of7uexR7W1ci7DinNh
+        icon: fas fa-link
+        description: ''
+      - name: Playwright – 文档网站
+        url: https://doc.yourapi.cn/mcp/playwright
+        icon: fas fa-link
+        description: ''
+      - name: Claude Code 推荐提示词大全 | Ctok | Claude Code拼车社群 - 专业教程与拼车服务
+        url: https://ctok.ai/claude-code-prompts-guide#docker-%E9%85%8D%E7%BD%AE
+        icon: fas fa-link
+        description: ''
+      - name: 减少配额消耗/提升cc返回速度和质量的使用技巧—新手教程（往下滑）
+        url: https://www.yuque.com/gtasmhe/rqevgd/lz9ulcphggap6er2
+        icon: fas fa-link
+        description: ''
+      - name: 海量 MCP Servers 导航网站
+        url: https://www.mcpworld.com/
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬​‌‬‬\uFEFF\uFEFF​‬⁤⁣‌‬⁢\uFEFF⁢‍‬​\uFEFF‍⁡‌⁣‬\uFEFF⁢⁡⁣‌​‬​​⁡⁡⁤⁤​⁢⁡​‍‬‍‬‌⁡​这两周用Codex写代码效率翻倍！于是我总结出这份保姆级教程 - 飞书云文档"
+        url: https://t16jzwqrzjx.feishu.cn/wiki/QhDDwMN41i2cfLk7wBDcvB3anpc
+        icon: fas fa-link
+        description: ''
+      - name: "‍​‌‬⁢‬​⁤⁢⁤​⁤⁡‍‍⁤‌‌⁢‍‬‌‬‬‌‍‌⁣⁤‬⁡⁤‌‬​⁤‬‌\uFEFF\uFEFF⁣​‌⁤‬⁣⁣⁣claude code mcp - 飞书云文档"
+        url: https://q4cyakcd4w.feishu.cn/wiki/MGn1wfdPMib8YTkrf1vcYXRSnjK
+        icon: fas fa-link
+        description: ''
+      - name: 学完就能用！Claude-Code 办公用品系统教程：基于真实商单，4 位数项目已上线 - 飞书云文档
+        url: https://ycnwp5kb84tn.feishu.cn/docx/VCDVdDDqho5Klgx71Ukco2ganlc
+        icon: fas fa-link
+        description: ''
+      - name: Claude 代码模板
+        url: https://github.com/davila7/claude-code-templates
+        icon: fab fa-github
+        description: ''
+      - name: 2025Emma/vibe-coding-cn
+        url: https://github.com/2025Emma/vibe-coding-cn
+        icon: fab fa-github
+        description: ''
+      - name: 网页转化md
+        url: https://r.jina.ai/
+        icon: fas fa-link
+        description: ''
+      - name: Claude skills
+        url: https://github.com/anthropics/skills
+        icon: fab fa-github
+        description: ''
+      - name: '1186258278/OpenCodeChineseTranslation: opencode汉化脚本-win-linux-mac'
+        url: https://github.com/1186258278/OpenCodeChineseTranslation
+        icon: fab fa-github
+        description: ''
+      - name: 'xiaolajiaoyds/OpenCode 中文翻译：opencode 汉化脚本-mac --- xiaolajiaoyyds/OpenCodeChineseTranslation: opencode汉化脚本-mac'
+        url: https://github.com/xiaolajiaoyyds/OpenCodeChineseTranslation
+        icon: fab fa-github
+        description: ''
+      - name: 7天掌握你的AI私人助理 | OpenClaw 101
+        url: https://openclaw101.dev/zh
+        icon: fas fa-link
+        description: ''
+      - name: "‌‍\uFEFF⁣​⁣‬‬‬‬‌‬⁢⁡​‬\uFEFF\uFEFF‬‌​​‍‬\uFEFF⁡‬⁣‍\uFEFF⁣‬⁡‬⁢‬‍​⁢‍‌​‬⁡⁡⁣‍⁢⁢⁢云舒的AI提示词搭子们 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/NABlwmL9si2vhWkqtgJcbTxknbe
+        icon: fas fa-link
+        description: ''
+      - name: "‌‍⁢⁣⁢​‌⁢‍⁤‬⁢⁣​⁡⁤‌⁣⁤⁤⁡‍\uFEFF⁤‍⁢\uFEFF⁡⁡‍​⁢⁣‬⁡⁢⁡‍⁢​‍‍⁡\uFEFF‬​‌​⁣⁡IMYAI Claude Code直连站使用教程 - 飞书云文档"
+        url: https://imyai6688.feishu.cn/wiki/Swu1wL0wPiTTprkbXm5ca4bNnMh
+        icon: fas fa-link
+        description: ''
+      - name: 'Google: Gemini 3 Pro 预览免费 - ZenMux --- Google: Gemini 3 Pro Preview Free - ZenMux'
+        url: https://zenmux.ai/google/gemini-3-pro-preview-free
+        icon: fas fa-link
+        description: ''
+  - name: 卡牌影视
+    icon: fas fa-folder
+    path:
+      - 卡牌影视
+    sites:
+      - name: 影视解说内部直播专用
+        url: https://app8iw3ycel4736.h5.xiaoeknow.com/p/course/column/p_612ee473e4b092ac98396c8f?product_id=p_631ea3dfe4b0eca59c2ef0b4
+        icon: fas fa-link
+        description: ''
+      - name: 卡牌影视解说特训营（学浪）
+        url: https://shimo.im/docs/kk9ZZMXXWOktNezP/read
+        icon: fas fa-link
+        description: ''
+      - name: 卡牌大院儿
+        url: https://www.kapai.site/
+        icon: fas fa-link
+        description: ''
+      - name: 卡牌任务大全 内有教程
+        url: https://active.clewm.net/FadLi4?qrurl=http://qr15.cn/FadLi4&gtype=1&key=8eacb16a298705d7963339276095dcf9abbd0a3956
+        icon: fas fa-link
+        description: ''
+      - name: 工作台 -
+        url: https://www.kapai.site/dashboard/workplace
+        icon: fas fa-link
+        description: ''
+      - name: "‌​​⁣⁣⁡⁡\uFEFF\uFEFF⁣⁢⁡‬⁡⁤‍⁣⁤⁤‬⁡\uFEFF⁢⁢‌‌‬⁢\uFEFF​​⁡⁢⁢​​‍⁡⁢⁤​​‬⁣⁤​​‬\uFEFF‬卡牌影视解说二创特训营目录 - 飞书云文档"
+        url: https://uowy1do2af.feishu.cn/docx/LASed5pduoSkt6xIHUwct4NDnub
+        icon: fas fa-link
+        description: ''
+      - name: ai唱歌软件
+        url: https://mzh.moegirl.org.cn/DiffSinger
+        icon: fas fa-link
+        description: ''
+  - name: 漫剧
+    icon: fas fa-folder
+    path:
+      - 漫剧
+    sites:
+      - name: "‌⁡⁤\uFEFF‍⁢‍‌​​\uFEFF⁣​⁤‍\uFEFF⁤⁢\uFEFF⁡​\uFEFF‌‬⁣\uFEFF⁢\uFEFF​⁤\uFEFF⁤⁢‍\uFEFF‬\uFEFF⁡⁡​​⁤‌⁣​‍⁡\uFEFF\uFEFF‬星图漫剧片单(每日更新-新剧/爆款剧) - 飞书云文档"
+        url: https://q4cyakcd4w.feishu.cn/sheets/MedHsRShFhFdsgtqZjrcUfW4nyh?sheet=82c9c0
+        icon: fas fa-link
+        description: ''
+      - name: "‌\uFEFF‬⁢\uFEFF‬‍\uFEFF‍‌‬​⁡​⁢‬\uFEFF​‬​⁡‍⁢‍⁢⁢​⁡​‍‌‬​\uFEFF​​⁣⁤‍‬‌‌⁡​​⁣‍⁡⁤⁢推小助-星图漫剧片单（每日更新-新剧/爆款剧） - 飞书云文档"
+        url: https://wcnb64mt3qlf.feishu.cn/wiki/AZSKwMqwYipWebkszt3ci6eLnSc?sheet=42a83e
+        icon: fas fa-link
+        description: ''
+      - name: "⁡‬⁣⁣⁤​⁢\uFEFF⁡‍⁣‬​⁢⁡⁤​\uFEFF\uFEFF‌⁢\uFEFF⁡​⁤‍⁤⁤‬​⁡‌‌‌⁤⁣⁢​⁢⁣⁣⁡⁣\uFEFF‌⁢⁢⁤⁢星图原生任务汇总（总结版） - 飞书云文档"
+        url: https://bytedance.larkoffice.com/sheets/Y6WqsWUf5h08EPtrzOccgJ6WnSc?sheet=wdloDx
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬‌⁤‌⁡⁡⁤⁣⁤\uFEFF⁤⁡⁤⁡⁢⁤⁤⁣⁣​​\uFEFF​⁢‍‬⁢⁢​⁤\uFEFF​‍‍\uFEFF\uFEFF⁢⁤​​‬⁢​‍‍‬‌⁤⁤漫剧任务汇总 - 飞书云文档"
+        url: https://bytedance.larkoffice.com/sheets/E7FPsP27NhulSRtyJDLcTNRCnxd?sheet=lzuvXn
+        icon: fas fa-link
+        description: ''
+      - name: "‍‌‍⁢​‍​⁡‍⁡​⁣‍‬​‌⁤⁡‌​‌⁡⁣⁣\uFEFF\uFEFF​​​⁡⁤‍‌⁡‍\uFEFF\uFEFF‬⁣​‬\uFEFF⁢‬⁣⁢‍\uFEFF​⁣麻雀短剧推广操作流程 - 飞书云文档"
+        url: https://dijior4ympz.feishu.cn/wiki/Erhbwtf8Di20GzkDQNtcY7FTnW9
+        icon: fas fa-link
+        description: ''
+      - name: 漫剧成品下载中心
+        url: http://dy.lxz2022.com/work_down_list.aspx?word=&task_type=2
+        icon: fas fa-link
+        description: ''
+      - name: "⁣‍⁤‬⁤​⁣​⁤\uFEFF‬⁢⁡\uFEFF⁡⁡​⁣\uFEFF⁤​‍\uFEFF​​‬‌⁢​‌​​⁤\uFEFF⁤‍⁢‌​⁤​⁢⁡\uFEFF‬‍⁣​⁣星图漫剧【一站式】教学文档 （推小助-内部文档） - 飞书云文档"
+        url: https://ocntoldvuv8s.feishu.cn/wiki/DTyFwG8JyiUlBMkPCGecDYM5n2d
+        icon: fas fa-link
+        description: ''
+  - name: 生财有术
+    icon: fas fa-folder
+    path:
+      - 生财有术
+    subcategories:
+      - name: 生财有术小红书运营
+        icon: fas fa-folder
+        path:
+          - 生财有术
+          - 生财有术小红书运营
+        sites:
+          - name: 小红书运营 | 9 月航海实战指南总览 - 飞书云文档
+            url: https://shengcaiyoushu01.feishu.cn/sheets/shtcnfGtgmrMuJLjv9u3bU32TCd
+            icon: fas fa-link
+            description: ''
+          - name: 9 月航海 | 小红书运营 | 实战手册 - 飞书云文档
+            url: https://shengcaiyoushu01.feishu.cn/docx/FzF6d6ohjoGyrcxVoz6cMdDnnCf?_=1666088490
+            icon: fas fa-link
+            description: ''
+          - name: 小红书运营 | 百问百答&精华分享 - 飞书云文档
+            url: https://shengcaiyoushu01.feishu.cn/sheets/shtcnevLWFfxdbu2X9G5iXJGEmd
+            icon: fas fa-link
+            description: ''
+          - name: 合集类笔记爆款模板拆解 - 飞书云文档
+            url: https://shengcaiyoushu01.feishu.cn/docs/doccnEB7s35EHN0uXYuH9LPaKPb
+            icon: fas fa-link
+            description: ''
+          - name: Docs
+            url: https://shengcaiyoushu01.feishu.cn/docs/doccniqw4E3CdRCylTF7bKHMrTM
+            icon: fas fa-link
+            description: ''
+          - name: 小红书爆款笔记 运营高频100问 | 百问百答知识手册 - 飞书云文档
+            url: https://shengcaiyoushu01.feishu.cn/docs/doccnawKJhgzVaChHFVxj9ApPge
+            icon: fas fa-link
+            description: ''
+          - name: Sheet
+            url: https://shengcaiyoushu01.feishu.cn/sheets/shtcn7tSNi5ufmvZGUUH6o9u4bc
+            icon: fas fa-link
+            description: ''
+          - name: 《深入了解小红书平台》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhi3l1744225mec2mj287
+            icon: fas fa-link
+            description: ''
+          - name: 《 如何在小红书上打造一个赚钱的IP？》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhinexs77j56ba9ifc243
+            icon: fas fa-link
+            description: ''
+          - name: 《怎么完成小红书内容的持续优化》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhhjvty66a514e262y2wb
+            icon: fas fa-link
+            description: ''
+          - name: 《如何在小红书平台引流》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhhxk5sm98p655x1y4775
+            icon: fas fa-link
+            description: ''
+          - name: 《怎么完成小红书内容的持续优化（二）》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhhatszrtqi6h6i432w8g
+            icon: fas fa-link
+            description: ''
+          - name: 《零投放从0开始，小红书2个月8万粉的实操经验分享》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhh15on313bi4kv259x3o
+            icon: fas fa-link
+            description: ''
+          - name: 《为啥机械性日更笔记很难爆》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhis9zy94lp29x6grt4j3
+            icon: fas fa-link
+            description: ''
+          - name: 《无敌老师高频问题解析》
+            url: https://shengcaiyoushu01.feishu.cn/minutes/obcnhi86382w727k7cj4bea8
+            icon: fas fa-link
+            description: ''
+          - name: C小调_大家好，我是C。
+            url: https://scys.vip/#/article/815518888542252
+            icon: fas fa-link
+            description: ''
+          - name: C小调_生财一周年小结
+            url: https://scys.vip/#/article/118515218411852
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: 公众号爆文写作
+        url: https://scys.vip/#/activityDetail/1930
+        icon: fas fa-link
+        description: ''
+      - name: 5 月航海｜公众号爆文写作｜实战手册
+        url: https://scys.vip/#/docx/NSfNdXVuPoQ3mTx1LnpcBnpanie
+        icon: fas fa-link
+        description: ''
+      - name: Alan_《视频号工具箱合集》建议收藏，每日更新 感谢亦仁老板加精。 0531更新一下，把一些失效链接去掉
+        url: https://scys.vip/#/article/184282454484252
+        icon: fas fa-link
+        description: ''
+      - name: 7月6日《公众号流量主核心逻辑分享》@林戏生
+        url: https://scys.vip/#/docx/FSsLd8nDOoyPetxZIxdciQ85n0b
+        icon: fas fa-link
+        description: ''
+      - name: "‍‌⁣​⁡​‬‍⁣‬\uFEFF\uFEFF\uFEFF‍⁢​‍‬\uFEFF‬⁡\uFEFF‬⁤⁢⁣⁢‍​‌\uFEFF⁢​⁤‌‬⁤\uFEFF\uFEFF‍⁡⁢⁡‬⁡‌\uFEFF\uFEFF\uFEFF​目标，热爱，方向 - 飞书云文档"
+        url: https://y1up0evmgdb.feishu.cn/docx/NK32dpoBWoo6VVxYjMqcnqOunhd
+        icon: fas fa-link
+        description: ''
+      - name: 10 分钟快速剪出短剧混剪爆款视频
+        url: https://scys.vip/#/article/211882145488411
+        icon: fas fa-link
+        description: ''
+      - name: 知识星球 | 深度连接铁杆粉丝，运营高品质社群，知识变现的工具
+        url: https://wx.zsxq.com/dweb2/index/topic_detail/188512855414452
+        icon: fas fa-link
+        description: ''
+      - name: 公众号赛道大全 - 飞书云文档
+        url: https://qo55mbioug.feishu.cn/docx/E8Ejdz7NJoGOFyxKVOicBtgPnrg
+        icon: fas fa-link
+        description: ''
+      - name: "‍‌‍⁢⁣‌⁣⁤⁢⁣⁣​‬⁣​‬​⁡‍‬​​‍​⁢\uFEFF​⁤‍‬⁡⁣​‌‬⁤⁢⁤⁣‬​⁤⁣⁣​⁢‌​‌‬公众号情感爆文写作：10w+就靠这条ChatGPT指令了(商用级Prompt免费送) - 飞书云文档"
+        url: https://xq6mz7nkknp.feishu.cn/docx/G7BJdUlS5oeQQZxb1cHc9yOUnjo
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术百篇值得一读的「平台项目精华帖」合集（2022年4-8月） - 飞书云文档
+        url: https://shengcaiyoushu01.feishu.cn/docx/doxcnDZNvamDpgd4ztDF53BYCEg
+        icon: fas fa-link
+        description: ''
+      - name: 亦仁_#生财周报#
+        url: https://scys.vip/#/article/212451182442811
+        icon: fas fa-link
+        description: ''
+      - name: 抖音无人直播引流本地代办业务，1个月成交50-100单，客单5000+的变现经验分享
+        url: https://scys.vip/#/article/2mh4l6w5f1it
+        icon: fas fa-link
+        description: ''
+      - name: "‬​‬‌⁣⁤⁡\uFEFF​‌‌\uFEFF\uFEFF\uFEFF⁢\uFEFF‌‬‍⁣⁣​‬⁡​‌⁢​⁡⁢​⁡⁣‬⁢​⁣⁣​‬⁢⁤‌⁡⁢⁣⁢⁣超实用工具分享（圈友专享） - 飞书云文档"
+        url: https://p6srqcdscw.feishu.cn/docx/doxcnZ2ERtfaN2fnP4SvX8jtFQd?_=1668742021
+        icon: fas fa-link
+        description: ''
+  - name: 网址导航
+    icon: fas fa-folder
+    path:
+      - 网址导航
+    sites:
+      - name: 优聚集 导航 聚合搜索
+        url: http://hao.misiai.com/#/
+        icon: fas fa-link
+        description: ''
+      - name: 第一福利導航 - fulione.com
+        url: https://xn--gmq96fgt8b0yd.com/
+        icon: fas fa-link
+        description: ''
+  - name: 吾爱破解
+    icon: fas fa-folder
+    path:
+      - 吾爱破解
+    sites:
+      - name: 电脑控制手机自动打电话_话务员福利_带批量拨打啦~ - 『原创发布区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|破解软件|www.52pojie.cn
+        url: https://www.52pojie.cn/forum.php?mod=viewthread&tid=1014794&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline
+        icon: fas fa-link
+        description: ''
+      - name: 京东助手+淘宝试用助手+苏宁试用助手[2020-08-28更新] - 『精品软件区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn
+        url: https://www.52pojie.cn/thread-1255286-1-1.html
+        icon: fas fa-link
+        description: ''
+      - name: 求一个抖音批量无水印下载软件 - 『悬赏问答区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn
+        url: https://www.52pojie.cn/thread-1243053-1-1.html
+        icon: fas fa-link
+        description: ''
+      - name: 【阿里云盘变本地硬盘】CloudDrive1.1.41 (115可以秒传到阿里) - 『精品软件区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn
+        url: https://www.52pojie.cn/forum.php?mod=viewthread&tid=1490131&highlight=%B0%A2%C0%EF%D4%C6
+        icon: fas fa-link
+        description: ''
+  - name: 乐超教育
+    icon: fas fa-folder
+    path:
+      - 乐超教育
+    subcategories:
+      - name: 飞书文档
+        icon: fas fa-folder
+        path:
+          - 乐超教育
+          - 飞书文档
+        sites:
+          - name: "‍​​⁡⁤\uFEFF\uFEFF⁤⁣\uFEFF‌​⁡⁡‌⁡⁤\uFEFF‬‬​\uFEFF‌‬⁢⁤⁤⁣⁣\uFEFF⁢\uFEFF​⁤⁤‬‌‍⁢\uFEFF​⁤⁢‬‌​‬‬⁡​出单好友统计表 - 飞书云文档"
+            url: https://hadgwbthf0m.feishu.cn/base/JHgHbz2JLa8E6nsqEJkcFynSnub?table=tblH2bXS9Y5wn7Tu&view=vewmqj8fyG
+            icon: fas fa-link
+            description: ''
+          - name: 报考渠道 - 飞书云文档
+            url: https://hadgwbthf0m.feishu.cn/base/MvPNbsuZbaxRIds5SoMch8GCnyc?table=tbl1ZRLDL9MkB5TC
+            icon: fas fa-link
+            description: ''
+          - name: "‌‌‌‌​⁤⁤⁣‌⁡⁢‍‬‌‍​⁤\uFEFF⁣⁤​⁤‌‌⁡​​​⁡⁡​⁣⁡​​⁣‍‬⁡⁡‬‍⁡‍‬‍⁤​⁤⁤日报 - 销售客户逐条线索分析表 - 飞书云文档"
+            url: https://hadgwbthf0m.feishu.cn/wiki/PW1gwVDpmiTFofkrGHccNC0TnVe?sheet=081d1a
+            icon: fas fa-link
+            description: ''
+          - name: "‌⁣\uFEFF​⁣⁢⁢⁢⁡⁢⁢​‍​‍​​⁡‌‍⁤\uFEFF\uFEFF‬\uFEFF⁡⁡​​‌‍‌​‌⁡⁢⁢⁣⁣‬​⁤‍⁡\uFEFF​‬⁣⁣\uFEFF销售11月业绩情况统计 - 飞书云文档"
+            url: https://hadgwbthf0m.feishu.cn/sheets/GhX1sowlQhCd3qtOgE6cqHnyn4d?sheet=pBzHtS
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: Workflows - n8n
+        url: http://47.76.39.6:5678/projects/f54E4QBWhGFxJ97s/workflows
+        icon: fas fa-link
+        description: ''
+      - name: 飞书开放平台开发者后台
+        url: https://open.feishu.cn/app/cli_a9b79ec3d43b9cc1/version/7583254775660334276
+        icon: fas fa-link
+        description: ''
+      - name: Monitors | UptimeRobot
+        url: https://dashboard.uptimerobot.com/monitors
+        icon: fas fa-link
+        description: ''
+      - name: 宝塔Linux面板
+        url: https://47.76.39.6:22112/21a6220a
+        icon: fas fa-link
+        description: ''
+      - name: 线索监控健康检查
+        url: http://47.76.39.6:8085/
+        icon: fas fa-link
+        description: ''
+  - name: 卡牌短剧二创
+    icon: fas fa-folder
+    path:
+      - 卡牌短剧二创
+    sites:
+      - name: "‍⁢​\uFEFF\uFEFF⁡⁣⁣‬​‬\uFEFF‍‌\uFEFF‌​​​⁣⁣​\uFEFF‬​⁡⁣⁡‌​‬⁡⁤‍⁣​⁣‌​​​\uFEFF‌⁣‌⁡⁡⁤\uFEFF‌卡牌短剧特训营目录 - 飞书云文档"
+        url: https://uowy1do2af.feishu.cn/docx/CNpLdmieHojZA6xjfDocw4T3n2e?ignore_wx_jump=1
+        icon: fas fa-link
+        description: ''
+      - name: 卡牌短剧推广课|短剧核心玩法，优质资源对接
+        url: https://app8iw3ycel4736.h5.xiaoeknow.com/p/course/big_column/p_654c8356e4b04c100fc4597a
+        icon: fas fa-link
+        description: ''
+  - name: 公司
+    icon: fas fa-folder
+    path:
+      - 公司
+    sites:
+      - name: （10年人力总万字干货）创业团队如何招募面试到合适的小伙伴
+        url: https://www.yuque.com/xufanfan-uxdnp/kb/lpqtqe?#
+        icon: fas fa-link
+        description: ''
+      - name: 企业初创期股权知识：避坑80%+
+        url: https://shimo.im/docs/vtxqHKRgHJDwCgGP/read
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬​‍‍\uFEFF⁤⁡⁣\uFEFF​​⁡‌‌⁡\uFEFF​⁤‬⁡‬‬‌⁤⁡⁡⁤‍​‍\uFEFF‍\uFEFF‍⁣‌⁢⁤⁡⁣‍⁢⁤‬⁣⁢‬​⁡创业初期，到底要怎么选择合伙人？ - 飞书云文档"
+        url: https://ozqj66fvp1.feishu.cn/docx/DvIxdXPDho6vsBxNAklc5H4lnLf
+        icon: fas fa-link
+        description: ''
+      - name: 互联网初创阶段避坑指南1.0
+        url: https://vnr4jule4g.feishu.cn/docx/PPTidaJwWovNYjxzlSxc4Pm4n1U
+        icon: fas fa-link
+        description: ''
+      - name: 清税申报（未办税户申请清税证明）
+        url: https://etax.hebei.chinatax.gov.cn:8443/xxbg/view/ztxxbg/qssbswzxblwkyqs
+        icon: fas fa-link
+        description: ''
+  - name: 搞流量流量
+    icon: fas fa-folder
+    path:
+      - 搞流量流量
+    sites:
+      - name: ‍⁣​⁤​⁢‍​⁣‌⁡​⁢⁤⁣​‍⁡​⁡⁢​⁣⁤‬⁤⁤⁣⁣⁣​⁣​⁡‌‍‌​⁣⁡⁢​‬⁢‬‌⁣‌​⁣像素级拆解，小白下场月赚 1W+的同城项目 - 飞书云文档
+        url: https://kq3ytuiktc6.feishu.cn/docx/HDANdpeVjoHRwtxdgcycALizn5X
+        icon: fas fa-link
+        description: ''
+      - name: 一个小时剪辑出20条小红书带货笔记视频教程【单纯用剪映】
+        url: https://articles.zsxq.com/id_wpx2zaibg1ts.html
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬⁡‌\uFEFF⁡⁡\uFEFF​​‍\uFEFF‍⁡‌⁣⁢​⁢⁤‍⁢⁤⁣‍​⁤\uFEFF​​​‌‬‌​⁡⁤‬⁡‬‍​‍​‌⁤\uFEFF​⁣⁤如何从0-1，0成本月入3W＋？玩转小红书资料号我是如何做到的 - 飞书云文档"
+        url: https://w9qs13d2em.feishu.cn/docx/Q6yadJxJ2oAqTyxK0hjc0r7AnBp
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬⁡⁡​⁤⁤‍‌⁤​‍‬​‍⁡‬⁤​⁤‍⁢⁣⁢‬‌⁢⁤⁣⁣⁣‌‌‬⁤⁢\uFEFF‌⁣\uFEFF⁡⁣⁤‬⁡‬⁣⁢⁣教育赛道:英语提分项目我们如何30天卖出50万 - 飞书云文档"
+        url: https://jnbsgdsqir.feishu.cn/docx/QaUbdYjnpoQCVwx1JNicygJ8nrd
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁢⁢\uFEFF⁢​⁢⁡​​⁣⁤⁣\uFEFF\uFEFF⁣​⁡⁢⁤⁡⁣​⁣‌\uFEFF⁢⁢\uFEFF‌⁤⁢⁣‌⁡⁣‌‬⁡⁤​\uFEFF⁡‍⁡‌⁢​⁤⁢三年时间，从自卑的985做题家，到知识付费月入5w - 飞书云文档"
+        url: https://p3ak6osfed.feishu.cn/wiki/CipHwziGAiB1npkPZjucKOK5n6b
+        icon: fas fa-link
+        description: ''
+      - name: "‌‍⁣‌‬​⁣⁣‍‍⁤‌⁤\uFEFF‌‌‌⁣‍​‍‬⁤\uFEFF‬⁤\uFEFF⁡⁣​\uFEFF⁢‌‌\uFEFF⁤⁣‌​​‌⁡‍⁤​\uFEFF‍‬‍⁡1.5万字！普通人做小红书，看这一篇就够了 - 飞书云文档"
+        url: https://p03a4vs9s2.feishu.cn/docx/EfaRdniZao28CFx5RXGcRBgDnfg
+        icon: fas fa-link
+        description: ''
+  - name: 下音乐
+    icon: fas fa-folder
+    path:
+      - 下音乐
+    sites:
+      - name: 音乐分享 - 网易云音乐热门歌单
+        url: http://googlec.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 爱听音乐网(2t58.Com)音乐下载|Mp3歌曲免费下载|免费音乐网|歌词下载
+        url: http://www.2t58.com/
+        icon: fas fa-link
+        description: ''
+      - name: 1Music.cc – 免费高品质音乐下载，支持FLAC/MP3，WebDAV上传
+        url: https://1music.cc/zh-CN
+        icon: fas fa-link
+        description: ''
+      - name: GD音乐台 - GD Studio's Online Music Platform
+        url: https://music.gdstudio.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: CHY Music - 霓虹音乐
+        url: https://yl.chybenzun.top/
+        icon: fas fa-link
+        description: ''
+      - name: XCloud音乐
+        url: https://music.xcloudv.top/
+        icon: fas fa-link
+        description: ''
+      - name: 下歌吧 - 免费下载高品质MP3与FLAC无损音乐
+        url: https://xiageba.liumingye.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 米兔音乐
+        url: https://www.qqmp3.vip/
+        icon: fas fa-link
+        description: ''
+      - name: 歌曲海-海量高品质MP3音乐免费下载，一键搜索找好歌
+        url: https://www.gequhai.com/
+        icon: fas fa-link
+        description: ''
+      - name: 音乐库
+        url: https://yinyueku.cn/
+        icon: fas fa-link
+        description: ''
+  - name: 下载电影
+    icon: fas fa-folder
+    path:
+      - 下载电影
+    subcategories:
+      - name: 磁力搜索
+        icon: fas fa-folder
+        path:
+          - 下载电影
+          - 磁力搜索
+        sites:
+          - name: 整容季 - 13个相关资源 - ØMagnet 无极磁链
+            url: https://0cili.org/
+            icon: fas fa-link
+            description: ''
+          - name: 整容季 - 雨花阁
+            url: https://www.yhg321.online/
+            icon: fas fa-link
+            description: ''
+          - name: 搜番
+            url: https://bb.sofan.biz/
+            icon: fas fa-link
+            description: ''
+          - name: 磁链搜索引擎 - ØMagnet 无极磁链
+            url: https://6mag.net/search?q=
+            icon: fas fa-link
+            description: ''
+          - name: 集芳阁云搜
+            url: https://xn--9kq89d0w0a2y2b.xyz/?mrfl
+            icon: fas fa-link
+            description: ''
+          - name: 收藏管理器
+            url: chrome://bookmarks/#306
+            icon: fas fa-link
+            description: ''
+          - name: ''
+            url: http://cilipa.cc/
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: D影视
+        url: https://www.bd-film.cc/movies/index.htm
+        icon: fas fa-link
+        description: ''
+      - name: The Official Home of YIFY Movies Torrent Download - YTS
+        url: https://yts.lt/home
+        icon: fas fa-link
+        description: ''
+      - name: Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site
+        url: https://piratebay.live/
+        icon: fas fa-link
+        description: ''
+      - name: 磁力熊 - 豆瓣高分电影1080P高清磁力下载
+        url: https://www.cilixiong.com/
+        icon: fas fa-link
+        description: ''
+      - name: BT之家-分享快乐,如此简单!-BT电影天堂-影视资源交流社区
+        url: https://btbtt17.com/
+        icon: fas fa-link
+        description: ''
+      - name: 爱笑聚 - 最新影视剧分享平台
+        url: https://www.hiaxj.com/bbs-index-run
+        icon: fas fa-link
+        description: ''
+      - name: BTNull - 无名小站
+        url: https://www.btnull.org/
+        icon: fas fa-link
+        description: ''
+      - name: 一个简单的影视搜索- 7080.wang
+        url: https://7080.wang/
+        icon: fas fa-link
+        description: ''
+      - name: 一键解析爱奇艺,优酷,腾讯,乐视,芒果等各大视频网站的VIP视频。
+        url: http://www.cdcer.net/jx/
+        icon: fas fa-link
+        description: ''
+      - name: 片吧网站内搜索引擎
+        url: http://so.pianbar.net/
+        icon: fas fa-link
+        description: ''
+      - name: 电影天堂_免费电影_迅雷电影下载_电影天堂网
+        url: https://dy.dytt8.net/index2.htm
+        icon: fas fa-link
+        description: ''
+      - name: 6v电影_免费电影_高清电影__最新电视剧下载（旧版66影视）
+        url: https://www.hao6v.tv/
+        icon: fas fa-link
+        description: ''
+      - name: 聚合影视-全网影视资源搜索引擎
+        url: https://www.juheyingshi.com/
+        icon: fas fa-link
+        description: ''
+      - name: 影搜.com-让影视搜索变得简单
+        url: https://yingshiso.com/
+        icon: fas fa-link
+        description: ''
+      - name: 茶杯狐 Cupfox - 努力让找电影变得简单
+        url: https://cupfox.app/
+        icon: fas fa-link
+        description: ''
+      - name: 土拨鼠电影 tbsdy - 免费高清电影电视剧在线观看极速下载
+        url: https://tbsdy.cc/
+        icon: fas fa-link
+        description: ''
+      - name: BTNull - 无名小站
+        url: https://www.btnull.org/
+        icon: fas fa-link
+        description: ''
+      - name: 番茄达人中心
+        url: https://promoter.fanqieopen.com/page/affiliate/content?tab_type=6
+        icon: fas fa-link
+        description: ''
+      - name: 安卓软件下载八神智能天下zntx.cc
+        url: http://zntx.cc/
+        icon: fas fa-link
+        description: ''
+      - name: SeedHub | 影视&动漫分享
+        url: https://www.seedhub.cc/
+        icon: fas fa-link
+        description: ''
+  - name: 下载软件
+    icon: fas fa-folder
+    path:
+      - 下载软件
+    subcategories:
+      - name: 少数软件
+        icon: fas fa-folder
+        path:
+          - 下载软件
+          - 少数软件
+        sites:
+          - name: 原版软件
+            url: https://next.itellyou.cn/Original/#cbp=Product?ID=f905b2d9-11e7-4ee3-8b52-407a8befe8d1
+            icon: fas fa-link
+            description: ''
+          - name: 软仓丨专业软件
+            url: https://www.ruancang.net/#/sim
+            icon: fas fa-link
+            description: ''
+          - name: Office办公软件各版本下载（全）
+            url: http://ffcell.com/WenKu/Data/2016050422100278.html
+            icon: fas fa-link
+            description: ''
+          - name: Adobe系列软件 · 语雀
+            url: https://www.yuque.com/docs/share/788f5842-691f-4183-b121-7e0342bc87b8
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: 首页_懒得勤快的博客_全栈开发者_互联网分享精神
+        url: https://masuit.com/
+        icon: fas fa-link
+        description: ''
+      - name: 7xiazai十周年 | 专注精品软件和良心系统
+        url: http://www.7xiazai.com/
+        icon: fas fa-link
+        description: ''
+      - name: 亿破姐 | 给你所需要的内容YPOJIE.COM！
+        url: https://www.ypojie.com/
+        icon: fas fa-link
+        description: ''
+      - name: 老殁 - 殁漂遥 - 分享好软件 - MpyIT.com，LaomoIT.com，KuiIT.com，Acold.xyz
+        url: https://www.mpyit.com/
+        icon: fas fa-link
+        description: ''
+      - name: 喵影工厂破解版下载|万兴喵影工厂破解版 v10.1.10免激活绿色版 - 多多软件站
+        url: http://www.ddooo.com/softdown/183751.htm
+        icon: fas fa-link
+        description: ''
+      - name: 乐软博客
+        url: https://www.isharepc.com/
+        icon: fas fa-link
+        description: ''
+      - name: 果核剥壳 - 互联网的净土
+        url: https://www.ghxi.com/
+        icon: fas fa-link
+        description: ''
+      - name: 盒子汇-专注于电视盒子、安卓、苹果最新影视应用分享 ▎直播软件、影视软件、黑科技、免费破解版软件 ▎每日分享、推荐、更新 ▎我们的目标：免费、清晰、流畅 ▎
+        url: http://www.hefentv.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 六音
+        url: https://www.sixyin.com/
+        icon: fas fa-link
+        description: ''
+  - name: 影视资源网页链接
+    icon: fas fa-folder
+    path:
+      - 影视资源网页链接
+    sites:
+      - name: 500T影视资源文档
+        url: https://docs.qq.com/sheet/DR1ZGZ2N4b0lTZGZo?tab=BB08J2
+        icon: fas fa-link
+        description: ''
+      - name: ⭐【240T资源文档】⭐
+        url: https://docs.qq.com/sheet/DR0lUeEZyaFdnc3JP?tab=BB08J2
+        icon: fas fa-link
+        description: ''
+  - name: 油猴脚本
+    icon: fas fa-folder
+    path:
+      - 油猴脚本
+    sites:
+      - name: Sleazy Fork - 安全、有用的成人用户脚本大全
+        url: https://sleazyfork.org/zh-CN
+        icon: fas fa-link
+        description: ''
+      - name: Greasy Fork - 安全、实用的用户脚本大全
+        url: https://greasyfork.org/zh-CN
+        icon: fas fa-link
+        description: ''
+      - name: 用户脚本列表 - ScriptCat
+        url: https://scriptcat.org/search
+        icon: fas fa-link
+        description: ''
+  - name: 语音文字抓换
+    icon: fas fa-folder
+    path:
+      - 语音文字抓换
+    sites:
+      - name: 语音转文字|录音转文字|语音识别– 在线语音转换文字软件 - 迅捷PDF转换器在线免费版
+        url: http://app.xunjiepdf.com/voice2text/
+        icon: fas fa-link
+        description: ''
+  - name: 云盘搜索
+    icon: fas fa-folder
+    path:
+      - 云盘搜索
+    sites:
+      - name: YaPan
+        url: https://pan.ccof.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 易搜-网盘搜索
+        url: https://yiso.fun/
+        icon: fas fa-link
+        description: ''
+      - name: 泰剧资料馆
+        url: https://www.taijuzlg.com/
+        icon: fas fa-link
+        description: ''
+      - name: 数据搜索
+        url: http://www.kkkob.com/apps/index.html?id=211229kl
+        icon: fas fa-link
+        description: ''
+      - name: 百度网盘搜索引擎-网盘搜索-盘搜联盟
+        url: http://www.de56.com/
+        icon: fas fa-link
+        description: ''
+  - name: 赚吧
+    icon: fas fa-folder
+    path:
+      - 赚吧
+    sites:
+      - name: 爱达杂货铺 | 收集那些有用的东西|爱达导航
+        url: https://adzhp.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 不求人导航@网赚 | 专业网赚导航网站
+        url: https://pocket.bqrdh.com/
+        icon: fas fa-link
+        description: ''
+      - name: 线报引擎 - 线报屋,赚客吧,赚客大家谈,赚客吧搜索,薅羊毛
+        url: https://riki.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 赚客吧搜索引擎-s.ip21.cn【官网】- Powered by goldenwind
+        url: https://s.ip21.cn/zuanke8/
+        icon: fas fa-link
+        description: ''
+      - name: 线报酷 - 专注线报活动分享与精品软件分享的线报网站
+        url: http://new.xianbao.fun/
+        icon: fas fa-link
+        description: ''
+      - name: 赚客吧-有奖一起赚 -
+        url: http://www.zuanke8.com/
+        icon: fas fa-link
+        description: ''
+      - name: 新赚吧|唯一线报|赚客吧|活动线报|实时线报|聚合线报|论坛社区 - 新赚吧
+        url: https://v1.xianbao.net/
+        icon: fas fa-link
+        description: ''
+  - name: 赚客吧
+    icon: fas fa-folder
+    path:
+      - 赚客吧
+    sites:
+      - name: 百度文库下载方法汇总分享 - 赚客大家谈 - 赚客吧
+        url: http://www.zuanke8.com/thread-6623679-1-1.html
+        icon: fas fa-link
+        description: ''
+      - name: 每日热帖 - 赚客吧
+        url: http://www.zuanke8.com/re.php
+        icon: fas fa-link
+        description: ''
+      - name: 京东刷d平台+撸毛平台【最高价回收Q币】+【最高价收Q币话费】✅ +长期撸毛平台 - 邀请专区 - 赚客吧
+        url: http://www.zuanke8.com/thread-5937788-1-1.html
+        icon: fas fa-link
+        description: ''
+  - name: 自媒体
+    icon: fas fa-folder
+    path:
+      - 自媒体
+    sites:
+      - name: 公众号后台
+        url: https://mp.weixin.qq.com/cgi-bin/appmsg?begin=0&count=10&t=media/appmsg_list&type=10&action=list&token=91630412&lang=zh_CN
+        icon: fas fa-link
+        description: ''
+      - name: 图片设计
+        url: https://www.fotor.com.cn/templates/tag-xiaoxi-Uv7b
+        icon: fas fa-link
+        description: ''
+      - name: 稿定设计-做图做视频必备_在线设计神器_海量版权素材模板
+        url: https://www.gaoding.com/
+        icon: fas fa-link
+        description: ''
+      - name: 创客贴_平面设计作图神器_免费设计模板_在线稿定设计印刷
+        url: https://www.chuangkit.com/
+        icon: fas fa-link
+        description: ''
+      - name: 135编辑器官网-微信排版编辑器-微信公众号图文排版工具，好用素材多
+        url: https://www.135editor.com/
+        icon: fas fa-link
+        description: ''
+      - name: 新榜微信编辑器—让你的图文编辑生动有趣
+        url: https://edit.newrank.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 易点微信编辑器_微信公众号排版_公众号软文编辑_公众号图文编辑_微信图文排版工具_微信内容排版软件_微信公众平台素材编辑-易点编辑器
+        url: https://www.wxeditor.com/
+        icon: fas fa-link
+        description: ''
+      - name: 微信公众号全部文章和历史消息导出成PDF/TXT电子书 - 没错，就是这里
+        url: https://www.lishixiaoxi.com/?=chrome1
+        icon: fas fa-link
+        description: ''
+      - name: 微信视频在线视频下载服务,公众号视频在线下载服务
+        url: http://www.15um.com/tools/weixin_v.php
+        icon: fas fa-link
+        description: ''
+      - name: 自媒体导航 | 新媒体人的必备导航网站
+        url: https://www.zhouxingbin.com/
+        icon: fas fa-link
+        description: ''
+      - name: 考拉新媒体导航——新媒体人的专属门户网站
+        url: https://www.kaolamedia.com/
+        icon: fas fa-link
+        description: ''
+      - name: 小发猫AI智能写作-- 仿写 改写
+        url: http://www.xiaofamao.com/
+        icon: fas fa-link
+        description: ''
+      - name: 爆款文章 易撰
+        url: https://www.yizhuan5.com/?rd=1
+        icon: fas fa-link
+        description: ''
+      - name: 百度大脑-智能创作平台-更懂你的智能创作助手
+        url: http://ai.baidu.com/creation/main/index
+        icon: fas fa-link
+        description: ''
+      - name: 即时热榜官网
+        url: http://jsrank.cn/index.html
+        icon: fas fa-link
+        description: ''
+      - name: 秘塔写作猫-改错字
+        url: https://xiezuocat.com/
+        icon: fas fa-link
+        description: ''
+      - name: 检查错字 写作猫
+        url: https://xiezuocat.com/#/
+        icon: fas fa-link
+        description: ''
+      - name: AI伪原创 - 奶盘SEO伪原创 - 免费的在线伪原创工具
+        url: http://www.naipan.com/aiweiyuanchuang.html
+        icon: fas fa-link
+        description: ''
+      - name: 吾爱文案网_51wen88.com
+        url: http://www.51wen88.com/
+        icon: fas fa-link
+        description: ''
+      - name: 万有导航丨一个互联网全职业的聚合资源网址导航
+        url: https://wanyouw.com/
+        icon: fas fa-link
+        description: ''
+      - name: 主页视频批量解析 - 天天解析
+        url: http://www.tiantianjiexi.com/network/video_list.html
+        icon: fas fa-link
+        description: ''
+  - name: AI
+    icon: fas fa-folder
+    path:
+      - AI
+    sites:
+      - name: AI导航 | 链接AI世界
+        url: https://wz.aidaohang.com.cn/?f=cosplay
+        icon: fas fa-link
+        description: ''
+      - name: AiShort(ChatGPT Shortcut)-简单易用的 AI 快捷指令表，让生产力倍增！ | AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool
+        url: https://www.aishort.top/
+        icon: fas fa-link
+        description: ''
+      - name: "‍‬‬⁣⁢\uFEFF​‌\uFEFF‍⁡​⁤​‬⁣\uFEFF‌\uFEFF​\uFEFF‍⁣⁡⁣⁢​⁤‬⁢‬‬‍\uFEFF‍‬⁢⁡‍⁣⁡\uFEFF⁣‍‌‍⁣‍⁤‬副本迭代 003 AI+公众号爆文 一条 prompt 助力大家爆文掘金 - 飞书云文档"
+        url: https://w194sny3eli.feishu.cn/wiki/SRyaw2ujjiWhSrkemEvc6uofnSe
+        icon: fas fa-link
+        description: ''
+  - name: api接口
+    icon: fas fa-folder
+    path:
+      - api接口
+    sites:
+      - name: 数据中心 - 起零数据控制台
+        url: https://api.istero.com/console/index
+        icon: fas fa-link
+        description: ''
+      - name: 接口盒子 - 后台
+        url: https://www.apihz.cn/user/index.php
+        icon: fas fa-link
+        description: ''
+      - name: 彩票数据API查询-彩票查询 - 探数数据
+        url: https://www.tanshuapi.com/market/detail-97
+        icon: fas fa-link
+        description: ''
+  - name: claude code 生财
+    icon: fas fa-folder
+    path:
+      - claude code 生财
+    sites:
+      - name: "‬⁤⁢‌‍⁡\uFEFF⁡​‬⁣‍⁣​⁡​​⁡⁤‌​‬‬⁣‬​‍⁢⁤‍⁤‌‍‌‍⁡​‌‌‬⁢⁤\uFEFF‬⁣⁢⁢‌‬为了成为Claude Code高手，我雇了个AI当教练 - 飞书云文档"
+        url: https://t16jzwqrzjx.feishu.cn/docx/QJFEdSLDgoTaDLxY0oicEU5qn1b
+        icon: fas fa-link
+        description: ''
+  - name: github
+    icon: fas fa-folder
+    path:
+      - github
+    sites:
+      - name: 'GitHub - selierlin/Share-SSR-V2ray: 🃏SS/SSR/V2ray 分享收录 - 收集各站的分享'
+        url: https://github.com/selierlin/Share-SSR-V2ray
+        icon: fab fa-github
+        description: ''
+      - name: ohssr地址发布页
+        url: https://github.com/ohssr-cf/ohssr/wiki
+        icon: fab fa-github
+        description: ''
+      - name: 'iniwap/AIWriteX: 基于 CrewAI、AIForge / AIPy 的微信公众号自动化工具软件，自动获取抖音、微博等平台热点，融合“搜索+借鉴+AI”，生成高时效（实时）、高质量、排版酷炫的文章并发布到微信公众号。'
+        url: https://github.com/iniwap/AIWriteX?tab=readme-ov-file#-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%A8%A1%E6%9D%BF%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88
+        icon: fab fa-github
+        description: ''
+      - name: 中国独立开发者列表
+        url: https://github.com/1c7/chinese-independent-developer?tab=readme-ov-file
+        icon: fab fa-github
+        description: ''
+  - name: ios ipa
+    icon: fas fa-folder
+    path:
+      - ios ipa
+    sites:
+      - name: WeChat | 优创云盘
+        url: https://pan.ios98.com/WeChat
+        icon: fas fa-link
+        description: ''
+      - name: iosapp
+        url: https://pan.lewsky.top/
+        icon: fas fa-link
+        description: ''
+      - name: iOS资源 | 乐玩iOS资源站
+        url: https://pan.lewsky.top/iOS%E8%B5%84%E6%BA%90?page=1
+        icon: fas fa-link
+        description: ''
+      - name: (/≧▽≦/)咦！又好了！ 晴天网盘
+        url: https://alist.jiejingfan.vip/%E5%BE%AE%E4%BF%A1/%E5%A4%9A%E5%8A%9F%E8%83%BD
+        icon: fas fa-link
+        description: ''
+      - name: 主页 | 清烟资源库丨致力打造全网最全资源
+        url: https://pan.qlam.cc/
+        icon: fas fa-link
+        description: ''
+  - name: n8n
+    icon: fas fa-folder
+    path:
+      - n8n
+    sites:
+      - name: "‬\uFEFF⁢‌⁡⁣‌‌‌\uFEFF\uFEFF\uFEFF‬‌‬​​​\uFEFF​⁣​‍⁡\uFEFF‍​​⁣⁤‍⁤⁤​‌​​\uFEFF​⁤⁤⁤​‌\uFEFF\uFEFF​​⁤服务器部署n8n完整教程：都在教本地化部署n8n,但我认为服务器部署n8n才是王炸！ - 飞书云文档"
+        url: https://b121w2zgwyx.feishu.cn/docx/CxhCda792oUq4fxq6wvcBy1Tnac
+        icon: fas fa-link
+        description: ''
+      - name: "‍​\uFEFF​​⁡\uFEFF​‍​⁣⁤‬‌⁢⁣⁡⁡​⁣‬\uFEFF⁡⁡​‍‬​‌⁢⁡​‌⁣⁤⁡‍⁤⁢‬​​​⁤‌⁡\uFEFF\uFEFF⁡​别手动搭n8n了，n8n邪修出手，1个mcp工具让搭建部署全自动，爽爆！ - 飞书云文档"
+        url: https://b121w2zgwyx.feishu.cn/docx/JoV9dJIp2om2gbxDQmsc4Sidnhe
+        icon: fas fa-link
+        description: ''
+      - name: "‌​\uFEFF​‌⁣⁤⁢⁣‬​\uFEFF⁢‍⁢‬⁢​​​⁣​⁣⁡​​​​⁡‬⁣⁡‌⁡‍⁡⁡⁡‌​⁢⁢⁣​\uFEFF⁣⁢⁡​⁣N8N扫盲，老司机手把手带你入门N8N - 飞书云文档"
+        url: https://svox0dxsvym.feishu.cn/wiki/JhLYwtsj2iCYQskHf15c6tuYnmh
+        icon: fas fa-link
+        description: ''
+      - name: "‍‍\uFEFF⁣​⁣⁤⁡⁢​⁢⁡‍​‌‬\uFEFF\uFEFF⁢⁤‬\uFEFF⁢⁡‍​​‍​​\uFEFF⁣‬‬⁢​⁣‬⁤​\uFEFF⁣‍​⁣⁣‬⁣​⁡n8n 保姆级万字指南-【认识-熟悉-实践】三板斧 - 飞书云文档"
+        url: https://rcnawx71yojy.feishu.cn/wiki/M1uRwS15PiHSrdk83Zhc0Dstnme
+        icon: fas fa-link
+        description: ''
+      - name: ClawCloud Run
+        url: https://us-east-1.run.claw.cloud/
+        icon: fas fa-link
+        description: ''
+      - name: 工作流 - n8n --- Workflows - n8n
+        url: https://n8n-efltablf.us-east-1.clawcloudrun.com/home/workflows
+        icon: fas fa-link
+        description: ''
+  - name: SSR
+    icon: fas fa-folder
+    path:
+      - SSR
+    sites:
+      - name: fan呛后
+        url: https://fanqianghou.com/
+        icon: fas fa-link
+        description: ''
+      - name: ss免费账号 – Free Air
+        url: http://blog.free-air.org/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/
+        icon: fas fa-link
+        description: ''
+      - name: Share-SSR-V2ray/tools.md at master · selierlin/Share-SSR-V2ray · GitHub
+        url: https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md
+        icon: fab fa-github
+        description: ''
+      - name: 自动更新-福利机场
+        url: https://jichangdaquan.com/node/429.html
+        icon: fas fa-link
+        description: ''
+      - name: 最新免费SS/SSR/Shadowsocks账号 | 永久长期有效-『白云居』
+        url: https://baiyunju.cc/5536
+        icon: fas fa-link
+        description: ''
+      - name: Share-SSR-V2ray/1-share-ssr-v2ray.md at master · selierlin/Share-SSR-V2ray · GitHub
+        url: https://github.com/selierlin/Share-SSR-V2ray/blob/master/1-share-ssr-v2ray.md
+        icon: fab fa-github
+        description: ''
+      - name: 箭鱼云
+        url: https://yy-vm.yuyu.cool/
+        icon: fas fa-link
+        description: ''
+      - name: 畅云
+        url: https://www.v2cy.com/#/subscribe
+        icon: fas fa-link
+        description: ''
+      - name: 还是长期免费，还是4K流畅，流量用不完 - YouTube
+        url: https://www.youtube.com/watch?v=6eusj0EDNsY
+        icon: fab fa-youtube
+        description: ''
+      - name: azi加速器
+        url: https://azi.azzico.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: azi加速器
+        url: https://azi.azzico.cc/
+        icon: fas fa-link
+        description: ''
+      - name: 飞鱼云ssr
+        url: https://yuyu.cool/nodeList
+        icon: fas fa-link
+        description: ''
+      - name: 全部SSR/V2ray机场导航推荐 |我爱白嫖 | 52BP
+        url: https://52bp.org/airport.html
+        icon: fas fa-link
+        description: ''
+      - name: 大机场 Big Airport
+        url: https://xn--mesr8b36x.net/#/dashboard
+        icon: fas fa-link
+        description: ''
+      - name: 速
+        url: https://suying666.net/user
+        icon: fas fa-link
+        description: ''
+      - name: SR
+        url: https://ssssr.icu/user
+        icon: fas fa-link
+        description: ''
+      - name: 大哥云
+        url: https://www.dageyun.net/#/plan
+        icon: fas fa-link
+        description: ''
+      - name: Go加速
+        url: https://gogoo.cyou/
+        icon: fas fa-link
+        description: ''
+  - name: mini航海
+    icon: fas fa-folder
+    path:
+      - mini航海
+    sites:
+      - name: "‍‍⁡⁣\uFEFF‬​​⁡⁣​⁤​​‬‬‌​⁡\uFEFF​​‌⁡‬\uFEFF\uFEFF​⁣​​​‍⁡⁢⁢\uFEFF⁣‌​‌⁡‍‍‬⁤⁣‌⁢Mini航海-私域销转sop搭建百问百答（学员专属） - 飞书云文档"
+        url: https://shengcaiyoushu01.feishu.cn/wiki/GvX5wY6RGiStGQkkkhccENgfnwd
+        icon: fas fa-link
+        description: ''
+      - name: 01. 熟悉手册框架与模型 - 私域销转SOP搭建丨Mini
+        url: https://scys.com/course/detail/94
+        icon: fas fa-link
+        description: ''
+      - name: MINI航海资料包合集
+        url: https://docs.qq.com/doc/DSmhqT2VmeWpTZUdQ
+        icon: fas fa-link
+        description: ''
+      - name: 生财有术·资料文档
+        url: https://scys.com/view/docx/VxZmdg0JpoIGXzxW5yLcjEFPn4c#doxcnZ8wXPvxLfsmmJtOA7jl2s0
+        icon: fas fa-link
+        description: ''
+  - name: 巨量本地推
+    icon: fas fa-folder
+    path:
+      - 巨量本地推
+    sites:
+      - name: 获取本地推线索列表-本地推线索管理-商业开放平台
+        url: https://open.oceanengine.com/labels/37/docs/1794759460056076
+        icon: fas fa-link
+        description: ''
+      - name: "‌​​⁣​‌​​⁢‍⁣​\uFEFF⁡\uFEFF‬⁢‬‍⁤⁢​\uFEFF⁢​⁤‬​\uFEFF⁡‍⁣‬‍⁣\uFEFF‌⁡⁤​\uFEFF‬‬‌⁡⁢⁡抖音巨量广告丨接入教程 - 飞书云文档 微客外链"
+        url: https://weikelink.feishu.cn/wiki/QdNOwKFeai1nmhkra1KcRLfynoc
+        icon: fas fa-link
+        description: ''
+  - name: 短剧下载
+    icon: fas fa-folder
+    path:
+      - 短剧下载
+    sites:
+      - name: 天天短剧库
+        url: https://www.kdocs.cn/l/cqRbhqazOZHP?R=L1MvMQ%3D%3D
+        icon: fas fa-link
+        description: ''
+  - name: 福利吧
+    icon: fas fa-folder
+    path:
+      - 福利吧
+    sites:
+      - name: 福利吧地址发布页
+        url: http://lao4g.com/
+        icon: fas fa-link
+        description: ''
+  - name: 传文件
+    icon: fas fa-folder
+    path:
+      - 传文件
+    sites:
+      - name: 轻松传 - 传文件，传文本，传屏幕，传实时视频
+        url: https://easychuan.cn/
+        icon: fas fa-link
+        description: ''
+  - name: 渡鸦
+    icon: fas fa-folder
+    path:
+      - 渡鸦
+    sites:
+      - name: 第4课｜公众号批量采集调研与公众号自动排版发布数字员工
+        url: https://appgk7fmomj8655.xet-pc.citv.cn/p/t_pc/live_pc/pc/l_69f9bc91e4b0694c3503c62d
+        icon: fas fa-link
+        description: ''
+      - name: 渡鸦课程
+        url: https://shop165690089.youzan.com/wscvis/knowledge/index?p=vipbenefit&alias=1yda8x2py97kx&kdt_id=165497921&reft=1777106679919_1777106682827#/vipbenefit?p=vipbenefit&alias=1yda8x2py97kx&kdt_id=165497921&reft=1777106679919_1777106682827
+        icon: fas fa-link
+        description: ''
+      - name: 渡鸦科技社个人中心
+        url: https://shop165690089.youzan.com/wscuser/membercenter?kdt_id=165497921&reft=1777106663878
+        icon: fas fa-link
+        description: ''
+      - name: "‍​\uFEFF​‬⁢⁣⁤⁣\uFEFF‬‍⁣\uFEFF​‌‍​\uFEFF‬\uFEFF⁢‍\uFEFF⁣\uFEFF‬‬​⁤⁢⁤⁣​⁤‌‌​‌⁣⁣⁡‍\uFEFF‬⁤‍​Moya Claw 你的流量获客团队 - 飞书云文档"
+        url: https://jv3ue06ua1.feishu.cn/wiki/EZF1wyWz0iSm75kE7MgcH2EYnPg?renamingWikiNode=true
+        icon: fas fa-link
+        description: ''
+  - name: 降低ai率
+    icon: fas fa-folder
+    path:
+      - 降低ai率
+    sites:
+      - name: XYZ SCIENCE：免费AIGC检测系统 | 支持中英文
+        url: https://www.xyzscience.com/detection
+        icon: fas fa-link
+        description: ''
+      - name: 'chi111i/BypassAIGC: 论文润色，AIGC 降重工具(gptzero等检测网站)'
+        url: https://github.com/chi111i/BypassAIGC
+        icon: fab fa-github
+        description: ''
+      - name: 'poleHansen/baibaiAIGC: baibaiAIGC'
+        url: https://github.com/poleHansen/baibaiAIGC
+        icon: fab fa-github
+        description: ''
+  - name: 浏览器隔离
+    icon: fas fa-folder
+    path:
+      - 浏览器隔离
+    sites:
+      - name: ixBrowser - 永久免费的指纹浏览器 -多账号安全管理专家
+        url: http://m.ixspy.com/zh
+        icon: fas fa-link
+        description: ''
+      - name: 比特指纹浏览器-反指纹浏览器-防关联指纹浏览器-跨境电商浏览器-超级浏览器
+        url: https://www.bitbrowser.cn/
+        icon: fas fa-link
+        description: ''
+      - name: 价格 - Hubstudio
+        url: https://www.hubstudio.com/pricing/
+        icon: fas fa-link
+        description: ''
+      - name: EasyBR 免费指纹浏览器 | 指纹浏览器 | 多账号防关联
+        url: https://www.ebrower.com/
+        icon: fas fa-link
+        description: ''
+      - name: U加速 - 节点购买
+        url: https://super.lhip.cc/user/shop
+        icon: fas fa-link
+        description: ''
+      - name: 无忧ip
+        url: https://user.wuyouip.com/Home
+        icon: fas fa-link
+        description: ''
+  - name: 我的服务器
+    icon: fas fa-folder
+    path:
+      - 我的服务器
+    subcategories:
+      - name: Xray
+        icon: fas fa-folder
+        path:
+          - 我的服务器
+          - Xray
+        sites:
+          - name: 快服务器-Zorocloud 原生IP CN2 GIA 高防VPS｜美国CERA·香港·英国云服务器 - ZoroCloud
+            url: https://my.zorocloud.com/
+            icon: fas fa-link
+            description: ''
+          - name: Xray 一键安装脚本，基于网络跳跃原版魔改，支持IPv4/IPv6 VPS，支持与宝塔面板共存
+            url: https://github.com/Misaka-blog/xray-script
+            icon: fab fa-github
+            description: ''
+          - name: 域名 - 迈向未来 - Spaceship
+            url: https://www.spaceship.com/zh/
+            icon: fas fa-link
+            description: ''
+          - name: 高级 DNS - Spaceship
+            url: https://www.spaceship.com/zh/application/advanced-dns-application/manage/84868988.xyz/
+            icon: fas fa-link
+            description: ''
+          - name: 購物車 - RackNerd LLC
+            url: https://my.racknerd.com/cart.php?a=confproduct&i=1&language=chinese
+            icon: fas fa-link
+            description: ''
+          - name: 客戶中心 - RackNerd LLC --- 客戶中心 - RackNerd LLC
+            url: https://my.racknerd.com/clientarea.php?action=productdetails&id=562924
+            icon: fas fa-link
+            description: ''
+          - name: rancknerd Control Panel
+            url: https://nerdvm.racknerd.com/control.php?_v=s2x2x274b48424b464p264z2
+            icon: fas fa-link
+            description: ''
+    sites:
+      - name: 教育邮箱
+        url: https://xiezhi.088680.xyz/
+        icon: fas fa-link
+        description: ''
+      - name: 教育邮箱
+        url: https://mail.noah.edu.gr/settings
+        icon: fas fa-link
+        description: ''
+      - name: VPS 配置器 --- VPS Configurator
+        url: https://us.ovhcloud.com/vps/configurator/?planCode=vps-2027-model2&brick=VPS%2BModel%2B2&pricing=upfront12&processor=%20&vcore=4__vCore&storage=75__SSD__NVMe
+        icon: fas fa-link
+        description: ''
+      - name: 哪吒监控 Nezha Monitoring
+        url: https://us.7979616.xyz/dashboard/
+        icon: fas fa-link
+        description: ''
+      - name: 监控
+        url: https://us.7979616.xyz:8008/
+        icon: fas fa-link
+        description: ''
+      - name: 产品库存状态 - v1791518402
+        url: https://stock.vpszdm.com/
+        icon: fas fa-link
+        description: ''
+      - name: 搬瓦工实时库存监控 - BandwagonHost 官网特价套餐与CN2 GIA补货中心
+        url: https://vpsoso.com/vps/bwh
+        icon: fas fa-link
+        description: ''
+  - name: 生财收藏
+    icon: fas fa-folder
+    path:
+      - 生财收藏
+    sites:
+      - name: 14000字拆解一人公司最强内容引擎：我如何用“OB+CC”
+        url: https://scys.com/articleDetail/xq_topic/45544285845828418
+        icon: fas fa-link
+        description: ''
+      - name: 我用半个月搭建一套 AI 二创文案系统后，7 天赚到2 万+
+        url: https://scys.com/articleDetail/xq_topic/22255211555555141
+        icon: fas fa-link
+        description: ''
+      - name: 建筑设计师深耕 B站好物一年：我用 Codex 把视频产出从
+        url: https://scys.com/articleDetail/xq_topic/55522458445228254
+        icon: fas fa-link
+        description: ''
+      - name: 如何用Codex搭建个人IP内容创作系统
+        url: https://scys.com/articleDetail/xq_topic/55522452885812484
+        icon: fas fa-link
+        description: ''
+      - name: 我把小红书内容获客这件事，重新做成了一条可以持续跑的流水线
+        url: https://scys.com/articleDetail/xq_topic/14422148151141452
+        icon: fas fa-link
+        description: ''
+      - name: scys.com/tokenrank/
+        url: https://scys.com/tokenrank/
+        icon: fas fa-link
+        description: ''
+      - name: Token烧掉百亿后，我用Agent拆解短视频IP，做出了个
+        url: https://scys.com/articleDetail/xq_topic/82255445541184442
+        icon: fas fa-link
+        description: ''
+      - name: "⁢​‌⁣‍‬⁣⁡​​‌‍‌⁡‌‬\uFEFF⁣⁡​⁤⁢‌​⁤⁢‬\uFEFF⁢​​​‬​‬‬‍‌‍‌​⁣⁣\uFEFF\uFEFF⁢​​⁤Codex+chatcut 能把口播剪到什么程度？我用一条 8 分钟视频做了次真实测试 - 飞书云文档"
+        url: https://hcnuuvhyvv70.feishu.cn/docx/JBhhdydsfoHKAyxrC6zcT1gfnsX
+        icon: fas fa-link
+        description: ''
+      - name: 【B站自动剪辑】全是模板，没有灵魂
+        url: https://scys.com/articleDetail/xq_topic/82255445484151122
+        icon: fas fa-link
+        description: ''
+      - name: "⁡⁡⁡​⁢‍⁤​⁤\uFEFF‌​\uFEFF‍\uFEFF​​​​\uFEFF‍​‬‌⁢‍⁣⁤⁢‍⁤​⁤\uFEFF‌‌‌‬​\uFEFF​‬​​​⁢‬⁤b站矩阵引流全攻略，一篇文章就够了 - 飞书云文档"
+        url: https://my.feishu.cn/docx/J5SydlVtpoxdvHx2P5XcN2tInue
+        icon: fas fa-link
+        description: ''
+      - name: "‌⁢‌​⁣⁤\uFEFF​⁡\uFEFF​‬\uFEFF⁢‍⁡‬⁣‍\uFEFF⁣⁤‌\uFEFF⁡​⁣⁤‍⁣⁢\uFEFF⁢‬⁣⁡‬\uFEFF‍‬⁣⁤‬⁡​‍‍‌​​垂直小号到底是什么？变现逻辑在哪里？ - 飞书云文档"
+        url: https://k874t2qh8w.feishu.cn/wiki/Pfw1wb53QioqD1kXXKnc35Cmn3e
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁡​⁤​⁤‬‬‍⁡‍\uFEFF⁣⁡‍‍‍⁤⁤⁢⁤‬​⁣⁡\uFEFF‍⁡​⁡⁡​\uFEFF‬⁣⁡‬‍⁤‬\uFEFF‌⁢⁣\uFEFF‌⁡⁡‍⁢公众号垂直小号，做知识付费IP，精准获客“经验复盘 - 飞书云文档"
+        url: https://k874t2qh8w.feishu.cn/docx/P8zldVpemoDgDExb5Vbc4tXsnng
+        icon: fas fa-link
+        description: ''
+      - name: "‍‌‍‍‬⁡⁡​‍​​​\uFEFF\uFEFF⁤‌⁡​⁣​⁡⁡⁤‍​⁣​⁢⁤​​‍‌‌⁢​‍⁤⁢⁤\uFEFF⁤⁢‍⁡‬⁣‌⁢​公众号+IP月入7万，8个月变现超40w+，实现一人公司。复盘我的公众号推荐流另类起号方法——以及百分百过Ai检测 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/XFyCwpE8LieuOKkNQmpcBGJ3n7g
+        icon: fas fa-link
+        description: ''
+      - name: 用AI把微信变成自动CRM，一个skill搞定 100+线索
+        url: https://scys.com/articleDetail/xq_topic/14422584518584122
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁡‌⁤‌‍‬‬⁡​⁣\uFEFF‌​​‌⁢⁢\uFEFF⁤⁢⁤‬\uFEFF⁤​‬⁡⁡\uFEFF‌‌⁡‌⁤⁤‌‬‍‬​‍​⁢⁢\uFEFF⁣​⁤⁤日更1092天、迭代400多次，我把我的AI内容工厂整套开源，Codex、Claude Code全通用 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/I6zlwXfTTickUfkTsFAcFT4Rn9f
+        icon: fas fa-link
+        description: ''
+      - name: "‍⁡​⁣\uFEFF​​‍​⁡⁤⁣\uFEFF\uFEFF\uFEFF\uFEFF⁣‍​⁤⁤​‌⁣⁢⁤⁣‍⁣‌⁡​⁢​‌‍⁡​‍‬⁢‌‍‌⁡‬⁤⁣‍‌老板避雷手册6：35岁前，如何「低成本、不负债」找到一个「适合自己」的好项目？（含：0基础创业-创业成功-转型成功三阶段，常问27问） 副本 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/O6Z5wLPCSibZVHkWBWScv30wnVf
+        icon: fas fa-link
+        description: ''
+      - name: "⁡⁢⁡⁣‬⁢⁢‍⁢\uFEFF⁡‬‬⁢‬⁣​⁤‌‬​‬\uFEFF‍\uFEFF‬⁢‬\uFEFF‬​⁢\uFEFF‬​⁣‌⁡​​​‬⁣‬\uFEFF​​如何在B站，打造70万粉丝的流量矩阵 - 飞书云文档"
+        url: https://my.feishu.cn/wiki/BntvwqUBuiKsynkGBFMc5OLwnOg
+        icon: fas fa-link
+        description: ''
+      - name: Docs
+        url: https://jcn4pvtuwhaq.feishu.cn/wiki/LmwTwCkp1iIt25kXVcec4FfpnRd
+        icon: fas fa-link
+        description: ''
+      - name: scys.com/tokenrank/connect
+        url: https://scys.com/tokenrank/connect
+        icon: fas fa-link
+        description: ''
+      - name: AI出镜第一次出镜拍视频：我如何用 AI 辅助写内容，起号第一周 4
+        url: https://scys.com/articleDetail/xq_topic/45548545148145248
+        icon: fas fa-link
+        description: ''
+      - name: 二十那年，我双手插兜，站在AI自媒体的银河上眸望未来——实现
+        url: https://scys.com/articleDetail/xq_topic/45548544585211858
+        icon: fas fa-link
+        description: ''
+      - name: Docs
+        url: https://bcn5ot9wwnew.feishu.cn/wiki/JB92wcXppiWZfdk1euncasBGnKg
+        icon: fas fa-link
+        description: ''
+      - name: 【超级标01】AI自媒体
+        url: https://scys.com/articleDetail/xq_topic/2858281141842221
+        icon: fas fa-link
+        description: ''
+      - name: AI自媒体从0到1速通：抖音1个月跑通2.5w粉，商单+私域
+        url: https://scys.com/articleDetail/xq_topic/55521151452128814
+        icon: fas fa-link
+        description: ''
+      - name: AI 自媒体万粉，2026 年接了 60 个广告，纯广告收益
+        url: https://scys.com/articleDetail/xq_topic/55521155258121884
+        icon: fas fa-link
+        description: ''
+  - name: 红果app
+    icon: fas fa-folder
+    path:
+      - 红果app
+    sites:
+      - name: 红果app下载
+        url: https://chenwai.252035.xyz/%E7%BA%A2%E6%9E%9C%C2%B7%E9%89%B4.zip
+        icon: fas fa-link
+        description: ''
+      - name: 手机黄果
+        url: https://chenwai.252035.xyz/%E7%9C%9F%E6%9E%9C%C2%B7%E9%89%B4.zip
+        icon: fas fa-link
+        description: ''
+      - name: 果果剧库下载
+        url: https://www.252035.xyz/%E7%9F%AD%E5%89%A7%E5%BA%93.zip
+        icon: fas fa-link
+        description: ''
+      - name: 【源码】果果剧库 - 红果、黄果、黄豆（纯绿色回归），9月17日 19:21 更新，冲冲冲 - 积分乐园 - LINUX DO
+        url: https://linux.do/t/topic/2895427
+        icon: fas fa-link
+        description: ''
+      - name: 【短剧APP】瑶池副本，建议静音，女菩萨啊啊叫，9月22日 13:27【游戏已开源】 - 积分乐园 / 积分乐园, Lv1 - LINUX DO
+        url: https://linux.do/t/topic/2924335
+        icon: fas fa-link
+        description: ''
+  - name: 手机收藏夹
+    icon: fas fa-folder
+    path:
+      - 手机收藏夹
+    subcategories: []
+    sites:
+      - name: 阿里盘盘_阿里云盘资源手工精选站
+        url: https://alipan.vip/
+        icon: fas fa-link
+        description: ''
+      - name: 登录 - 探索号
+        url: https://ssmh.xyz/login
+        icon: fas fa-link
+        description: ''
+      - name: 福利吧论坛/万能的福利吧 - Powered by Discuz!
+        url: https://www.wnflb99.com/
+        icon: fas fa-link
+        description: ''
+      - name: 句易网 - 2021年最新广告法淘宝违禁词敏感词在线查询检测工具
+        url: http://www.ju1.cn/
+        icon: fas fa-link
+        description: ''
+      - name: chrome-native://newtab/
+        url: chrome-native://newtab/
+        icon: fas fa-link
+        description: ''
+      - name: 前端设计 - 官方人类特工技能 |技能多人 --- Frontend Design - Official Anthropic Agent Skill | SkillsMP
+        url: https://skillsmp.com/zh/skills/anthropics-claude-code-plugins-frontend-design-skills-frontend-design-skill-md
+        icon: fas fa-link
+        description: ''
+      - name: Firecrawl - The Web Data API for AI
+        url: https://www.firecrawl.dev/
+        icon: fas fa-link
+        description: ''
+      - name: 免费上网账号
+        url: https://v2s.top/?fuli-one
+        icon: fas fa-link
+        description: ''
